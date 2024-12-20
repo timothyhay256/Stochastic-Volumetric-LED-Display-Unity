@@ -1,0 +1,2129 @@
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .gitattributes
+	new file:   .gitignore
+	new file:   Assets/Cube (10).controller
+	new file:   Assets/Cube (10).controller.meta
+	new file:   Assets/Cube (11).controller
+	new file:   Assets/Cube (11).controller.meta
+	new file:   Assets/FallingBlockDemo.cs
+	new file:   Assets/FallingBlockDemo.cs.meta
+	new file:   Assets/LeftRight.anim
+	new file:   Assets/LeftRight.anim.meta
+	new file:   Assets/LevelMeter.unity
+	new file:   Assets/LevelMeter.unity.meta
+	new file:   Assets/Materials.meta
+	new file:   Assets/Materials/Blue.mat
+	new file:   Assets/Materials/Blue.mat.meta
+	new file:   Assets/Materials/Cube (1) 1.controller
+	new file:   Assets/Materials/Cube (1) 1.controller.meta
+	new file:   Assets/Materials/Cube (1).controller
+	new file:   Assets/Materials/Cube (1).controller.meta
+	new file:   Assets/Materials/Cube (2).controller
+	new file:   Assets/Materials/Cube (2).controller.meta
+	new file:   Assets/Materials/Cube (6).controller
+	new file:   Assets/Materials/Cube (6).controller.meta
+	new file:   Assets/Materials/Cube (9).controller
+	new file:   Assets/Materials/Cube (9).controller.meta
+	new file:   Assets/Materials/Empty from top.anim
+	new file:   Assets/Materials/Empty from top.anim.meta
+	new file:   Assets/Materials/Green.mat
+	new file:   Assets/Materials/Green.mat.meta
+	new file:   Assets/Materials/Miku.mat
+	new file:   Assets/Materials/Miku.mat.meta
+	new file:   Assets/Materials/Music beat.anim
+	new file:   Assets/Materials/Music beat.anim.meta
+	new file:   Assets/Materials/Pink.mat
+	new file:   Assets/Materials/Pink.mat.meta
+	new file:   Assets/Materials/Red.mat
+	new file:   Assets/Materials/Red.mat.meta
+	new file:   Assets/Materials/Simple spin.anim
+	new file:   Assets/Materials/Simple spin.anim.meta
+	new file:   Assets/Materials/Size change.anim
+	new file:   Assets/Materials/Size change.anim.meta
+	new file:   Assets/Materials/Size changing sphere.controller
+	new file:   Assets/Materials/Size changing sphere.controller.meta
+	new file:   Assets/Materials/Spinning cube.controller
+	new file:   Assets/Materials/Spinning cube.controller.meta
+	new file:   Assets/Materials/Translucent Pink 1.mat
+	new file:   Assets/Materials/Translucent Pink 1.mat.meta
+	new file:   Assets/Materials/Translucent Pink 2.mat
+	new file:   Assets/Materials/Translucent Pink 2.mat.meta
+	new file:   Assets/Materials/Translucent Pink 3.mat
+	new file:   Assets/Materials/Translucent Pink 3.mat.meta
+	new file:   Assets/Materials/Translucent Pink 4.mat
+	new file:   Assets/Materials/Translucent Pink 4.mat.meta
+	new file:   Assets/Materials/Translucent Pink 5.mat
+	new file:   Assets/Materials/Translucent Pink 5.mat.meta
+	new file:   Assets/Materials/Translucent Pink 6.mat
+	new file:   Assets/Materials/Translucent Pink 6.mat.meta
+	new file:   Assets/Materials/Translucent Pink.mat
+	new file:   Assets/Materials/Translucent Pink.mat.meta
+	new file:   Assets/Materials/down.anim
+	new file:   Assets/Materials/down.anim.meta
+	new file:   Assets/Materials/move.anim
+	new file:   Assets/Materials/move.anim.meta
+	new file:   Assets/Materials/mvoe_offset.anim
+	new file:   Assets/Materials/mvoe_offset.anim.meta
+	new file:   Assets/Models.meta
+	new file:   Assets/Models/AnyConv.com__booty amongus.obj
+	new file:   Assets/Models/AnyConv.com__booty amongus.obj.meta
+	new file:   Assets/Models/booty amongus.stl
+	new file:   Assets/Models/booty amongus.stl.meta
+	new file:   Assets/OutlineEffect.meta
+	new file:   Assets/OutlineEffect/Demo.meta
+	new file:   Assets/OutlineEffect/Demo/Content.meta
+	new file:   Assets/OutlineEffect/Demo/Content/at.mat
+	new file:   Assets/OutlineEffect/Demo/Content/at.mat.meta
+	new file:   Assets/OutlineEffect/Demo/Content/at.png
+	new file:   Assets/OutlineEffect/Demo/Content/at.png.meta
+	new file:   Assets/OutlineEffect/Demo/Content/chair.fbx
+	new file:   Assets/OutlineEffect/Demo/Content/chair.fbx.meta
+	new file:   Assets/OutlineEffect/Demo/Content/chair.meta
+	new file:   Assets/OutlineEffect/Demo/Content/chair/black_plastic.mat
+	new file:   Assets/OutlineEffect/Demo/Content/chair/black_plastic.mat.meta
+	new file:   Assets/OutlineEffect/Demo/Content/chair/brushed_steel.mat
+	new file:   Assets/OutlineEffect/Demo/Content/chair/brushed_steel.mat.meta
+	new file:   Assets/OutlineEffect/Demo/Content/chair/chrome.mat
+	new file:   Assets/OutlineEffect/Demo/Content/chair/chrome.mat.meta
+	new file:   Assets/OutlineEffect/Demo/Content/chair/skin.mat
+	new file:   Assets/OutlineEffect/Demo/Content/chair/skin.mat.meta
+	new file:   Assets/OutlineEffect/Demo/Content/chair/wheel.mat
+	new file:   Assets/OutlineEffect/Demo/Content/chair/wheel.mat.meta
+	new file:   Assets/OutlineEffect/Demo/Content/floor.mat
+	new file:   Assets/OutlineEffect/Demo/Content/floor.mat.meta
+	new file:   Assets/OutlineEffect/Demo/Content/grey.mat
+	new file:   Assets/OutlineEffect/Demo/Content/grey.mat.meta
+	new file:   Assets/OutlineEffect/Demo/Content/logo.mat
+	new file:   Assets/OutlineEffect/Demo/Content/logo.mat.meta
+	new file:   Assets/OutlineEffect/Demo/Content/logo.png
+	new file:   Assets/OutlineEffect/Demo/Content/logo.png.meta
+	new file:   Assets/OutlineEffect/Demo/Content/sky.mat
+	new file:   Assets/OutlineEffect/Demo/Content/sky.mat.meta
+	new file:   Assets/OutlineEffect/Demo/Demo.meta
+	new file:   Assets/OutlineEffect/Demo/Demo.unity
+	new file:   Assets/OutlineEffect/Demo/Demo.unity.meta
+	new file:   Assets/OutlineEffect/Demo/Demo/LightingData.asset
+	new file:   Assets/OutlineEffect/Demo/Demo/LightingData.asset.meta
+	new file:   Assets/OutlineEffect/Demo/Demo/Lightmap-0_comp_dir.png
+	new file:   Assets/OutlineEffect/Demo/Demo/Lightmap-0_comp_dir.png.meta
+	new file:   Assets/OutlineEffect/Demo/Demo/Lightmap-0_comp_light.exr
+	new file:   Assets/OutlineEffect/Demo/Demo/Lightmap-0_comp_light.exr.meta
+	new file:   Assets/OutlineEffect/Demo/Demo/ReflectionProbe-0.exr
+	new file:   Assets/OutlineEffect/Demo/Demo/ReflectionProbe-0.exr.meta
+	new file:   Assets/OutlineEffect/Demo/Demo/ReflectionProbe-1.exr
+	new file:   Assets/OutlineEffect/Demo/Demo/ReflectionProbe-1.exr.meta
+	new file:   Assets/OutlineEffect/Demo/MaterialSwitcher.cs
+	new file:   Assets/OutlineEffect/Demo/MaterialSwitcher.cs.meta
+	new file:   Assets/OutlineEffect/Demo/OutlineAnimation.cs
+	new file:   Assets/OutlineEffect/Demo/OutlineAnimation.cs.meta
+	new file:   Assets/OutlineEffect/Demo/Rotate.cs
+	new file:   Assets/OutlineEffect/Demo/Rotate.cs.meta
+	new file:   Assets/OutlineEffect/Demo/StressTest.unity
+	new file:   Assets/OutlineEffect/Demo/StressTest.unity.meta
+	new file:   Assets/OutlineEffect/Demo/Toggle.cs
+	new file:   Assets/OutlineEffect/Demo/Toggle.cs.meta
+	new file:   Assets/OutlineEffect/LinkedSet.cs
+	new file:   Assets/OutlineEffect/LinkedSet.cs.meta
+	new file:   Assets/OutlineEffect/Outline.cs
+	new file:   Assets/OutlineEffect/Outline.cs.meta
+	new file:   Assets/OutlineEffect/OutlineEffect.cs
+	new file:   Assets/OutlineEffect/OutlineEffect.cs.meta
+	new file:   Assets/OutlineEffect/Resources.meta
+	new file:   Assets/OutlineEffect/Resources/OutlineBufferShader.shader
+	new file:   Assets/OutlineEffect/Resources/OutlineBufferShader.shader.meta
+	new file:   Assets/OutlineEffect/Resources/OutlineShader.shader
+	new file:   Assets/OutlineEffect/Resources/OutlineShader.shader.meta
+	new file:   Assets/Resources.meta
+	new file:   Assets/Resources/BillingMode.json
+	new file:   Assets/Resources/BillingMode.json.meta
+	new file:   Assets/SampleScenes.meta
+	new file:   Assets/SampleScenes/AudioMixers.meta
+	new file:   Assets/SampleScenes/AudioMixers/Car.mixer
+	new file:   Assets/SampleScenes/AudioMixers/Car.mixer.meta
+	new file:   Assets/SampleScenes/AudioMixers/JetPlane.mixer
+	new file:   Assets/SampleScenes/AudioMixers/JetPlane.mixer.meta
+	new file:   Assets/SampleScenes/AudioMixers/PropellerPlane.mixer
+	new file:   Assets/SampleScenes/AudioMixers/PropellerPlane.mixer.meta
+	new file:   Assets/SampleScenes/Materials.meta
+	new file:   Assets/SampleScenes/Materials/MauveSmooth.mat
+	new file:   Assets/SampleScenes/Materials/MauveSmooth.mat.meta
+	new file:   Assets/SampleScenes/Materials/NavyDarkGrid.mat
+	new file:   Assets/SampleScenes/Materials/NavyDarkGrid.mat.meta
+	new file:   Assets/SampleScenes/Materials/NavyDarkSmooth.mat
+	new file:   Assets/SampleScenes/Materials/NavyDarkSmooth.mat.meta
+	new file:   Assets/SampleScenes/Materials/NavyGrid.mat
+	new file:   Assets/SampleScenes/Materials/NavyGrid.mat.meta
+	new file:   Assets/SampleScenes/Materials/NavySmooth.mat
+	new file:   Assets/SampleScenes/Materials/NavySmooth.mat.meta
+	new file:   Assets/SampleScenes/Materials/OrangeSmooth.mat
+	new file:   Assets/SampleScenes/Materials/OrangeSmooth.mat.meta
+	new file:   Assets/SampleScenes/Materials/ParticleClouds.mat
+	new file:   Assets/SampleScenes/Materials/ParticleClouds.mat.meta
+	new file:   Assets/SampleScenes/Materials/PinkSmooth.mat
+	new file:   Assets/SampleScenes/Materials/PinkSmooth.mat.meta
+	new file:   Assets/SampleScenes/Materials/PinkUnlit.mat
+	new file:   Assets/SampleScenes/Materials/PinkUnlit.mat.meta
+	new file:   Assets/SampleScenes/Materials/SkyboxProcedural.mat
+	new file:   Assets/SampleScenes/Materials/SkyboxProcedural.mat.meta
+	new file:   Assets/SampleScenes/Materials/TealSmooth.mat
+	new file:   Assets/SampleScenes/Materials/TealSmooth.mat.meta
+	new file:   Assets/SampleScenes/Materials/TurquoiseSmooth.mat
+	new file:   Assets/SampleScenes/Materials/TurquoiseSmooth.mat.meta
+	new file:   Assets/SampleScenes/Materials/WhiteSmooth.mat
+	new file:   Assets/SampleScenes/Materials/WhiteSmooth.mat.meta
+	new file:   Assets/SampleScenes/Materials/WhiteUnlit.mat
+	new file:   Assets/SampleScenes/Materials/WhiteUnlit.mat.meta
+	new file:   Assets/SampleScenes/Materials/YellowSmooth.mat
+	new file:   Assets/SampleScenes/Materials/YellowSmooth.mat.meta
+	new file:   Assets/SampleScenes/Menu.meta
+	new file:   Assets/SampleScenes/Menu/Prefabs.meta
+	new file:   Assets/SampleScenes/Menu/Prefabs/EventSystem.prefab
+	new file:   Assets/SampleScenes/Menu/Prefabs/EventSystem.prefab.meta
+	new file:   Assets/SampleScenes/Menu/Prefabs/MainMenuLoader.prefab
+	new file:   Assets/SampleScenes/Menu/Prefabs/MainMenuLoader.prefab.meta
+	new file:   Assets/SampleScenes/Menu/Prefabs/MainMenuUI.prefab
+	new file:   Assets/SampleScenes/Menu/Prefabs/MainMenuUI.prefab.meta
+	new file:   Assets/SampleScenes/Menu/Prefabs/NetworkGameMenuUI.prefab
+	new file:   Assets/SampleScenes/Menu/Prefabs/NetworkGameMenuUI.prefab.meta
+	new file:   Assets/SampleScenes/Menu/Prefabs/NetworkScoreBarUI.prefab
+	new file:   Assets/SampleScenes/Menu/Prefabs/NetworkScoreBarUI.prefab.meta
+	new file:   Assets/SampleScenes/Menu/Scripts.meta
+	new file:   Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs
+	new file:   Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs.meta
+	new file:   Assets/SampleScenes/Menu/Scripts/PauseMenu.cs
+	new file:   Assets/SampleScenes/Menu/Scripts/PauseMenu.cs.meta
+	new file:   Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs
+	new file:   Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs.meta
+	new file:   Assets/SampleScenes/Menu/Sprites.meta
+	new file:   Assets/SampleScenes/Menu/Sprites/LogoUnitySprite.png
+	new file:   Assets/SampleScenes/Menu/Sprites/LogoUnitySprite.png.meta
+	new file:   Assets/SampleScenes/Menu/Sprites/MenuCornerTopRightSprite.png
+	new file:   Assets/SampleScenes/Menu/Sprites/MenuCornerTopRightSprite.png.meta
+	new file:   Assets/SampleScenes/Models.meta
+	new file:   Assets/SampleScenes/Models/Brick.fbx
+	new file:   Assets/SampleScenes/Models/Brick.fbx.meta
+	new file:   Assets/SampleScenes/Models/Cube.fbx
+	new file:   Assets/SampleScenes/Models/Cube.fbx.meta
+	new file:   Assets/SampleScenes/Models/GoalPosts.fbx
+	new file:   Assets/SampleScenes/Models/GoalPosts.fbx.meta
+	new file:   Assets/SampleScenes/Models/GroundObstacles.FBX
+	new file:   Assets/SampleScenes/Models/GroundObstacles.FBX.meta
+	new file:   Assets/SampleScenes/Models/GroundRunway.FBX
+	new file:   Assets/SampleScenes/Models/GroundRunway.FBX.meta
+	new file:   Assets/SampleScenes/Models/GroundTrack.fbx
+	new file:   Assets/SampleScenes/Models/GroundTrack.fbx.meta
+	new file:   Assets/SampleScenes/Models/LaserBolt.fbx
+	new file:   Assets/SampleScenes/Models/LaserBolt.fbx.meta
+	new file:   Assets/SampleScenes/Models/Loop.fbx
+	new file:   Assets/SampleScenes/Models/Loop.fbx.meta
+	new file:   Assets/SampleScenes/Models/Materials.meta
+	new file:   Assets/SampleScenes/Models/Materials/Asteroid.mat
+	new file:   Assets/SampleScenes/Models/Materials/Asteroid.mat.meta
+	new file:   Assets/SampleScenes/Models/Materials/SpaceshipGlow.mat
+	new file:   Assets/SampleScenes/Models/Materials/SpaceshipGlow.mat.meta
+	new file:   Assets/SampleScenes/Models/Materials/SpaceshipHull.mat
+	new file:   Assets/SampleScenes/Models/Materials/SpaceshipHull.mat.meta
+	new file:   Assets/SampleScenes/Models/MiniRamps.fbx
+	new file:   Assets/SampleScenes/Models/MiniRamps.fbx.meta
+	new file:   Assets/SampleScenes/Models/Pickup.fbx
+	new file:   Assets/SampleScenes/Models/Pickup.fbx.meta
+	new file:   Assets/SampleScenes/Models/Pillar.fbx
+	new file:   Assets/SampleScenes/Models/Pillar.fbx.meta
+	new file:   Assets/SampleScenes/Models/Platform.fbx
+	new file:   Assets/SampleScenes/Models/Platform.fbx.meta
+	new file:   Assets/SampleScenes/Models/Platforms.fbx
+	new file:   Assets/SampleScenes/Models/Platforms.fbx.meta
+	new file:   Assets/SampleScenes/Models/PrimaryJumpRamp.fbx
+	new file:   Assets/SampleScenes/Models/PrimaryJumpRamp.fbx.meta
+	new file:   Assets/SampleScenes/Models/RampElevated.fbx
+	new file:   Assets/SampleScenes/Models/RampElevated.fbx.meta
+	new file:   Assets/SampleScenes/Models/Ring.fbx
+	new file:   Assets/SampleScenes/Models/Ring.fbx.meta
+	new file:   Assets/SampleScenes/Navmesh.meta
+	new file:   Assets/SampleScenes/Navmesh/CarAI.asset
+	new file:   Assets/SampleScenes/Navmesh/CarAI.asset.meta
+	new file:   Assets/SampleScenes/Navmesh/CharacterThirdPersonAI.asset
+	new file:   Assets/SampleScenes/Navmesh/CharacterThirdPersonAI.asset.meta
+	new file:   Assets/SampleScenes/Prefabs.meta
+	new file:   Assets/SampleScenes/Prefabs/Box.prefab
+	new file:   Assets/SampleScenes/Prefabs/Box.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/BoxPile.prefab
+	new file:   Assets/SampleScenes/Prefabs/BoxPile.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/BoxSmall.prefab
+	new file:   Assets/SampleScenes/Prefabs/BoxSmall.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/CameraSwitch.prefab
+	new file:   Assets/SampleScenes/Prefabs/CameraSwitch.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/CameraSwitchUI.prefab
+	new file:   Assets/SampleScenes/Prefabs/CameraSwitchUI.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/GoalPosts.prefab
+	new file:   Assets/SampleScenes/Prefabs/GoalPosts.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/GroundArena.prefab
+	new file:   Assets/SampleScenes/Prefabs/GroundArena.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/GroundObstacles.prefab
+	new file:   Assets/SampleScenes/Prefabs/GroundObstacles.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/GroundRunway.prefab
+	new file:   Assets/SampleScenes/Prefabs/GroundRunway.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/GroundTrack.prefab
+	new file:   Assets/SampleScenes/Prefabs/GroundTrack.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/House.prefab
+	new file:   Assets/SampleScenes/Prefabs/House.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/LevelResetUI.prefab
+	new file:   Assets/SampleScenes/Prefabs/LevelResetUI.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/Loop.prefab
+	new file:   Assets/SampleScenes/Prefabs/Loop.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/MobileShaderReplacements.prefab
+	new file:   Assets/SampleScenes/Prefabs/MobileShaderReplacements.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/Pickup.prefab
+	new file:   Assets/SampleScenes/Prefabs/Pickup.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/Pillar.prefab
+	new file:   Assets/SampleScenes/Prefabs/Pillar.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/ResetterUI.prefab
+	new file:   Assets/SampleScenes/Prefabs/ResetterUI.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/Ring.prefab
+	new file:   Assets/SampleScenes/Prefabs/Ring.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/Sea.prefab
+	new file:   Assets/SampleScenes/Prefabs/Sea.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/SmashBoxes.prefab
+	new file:   Assets/SampleScenes/Prefabs/SmashBoxes.prefab.meta
+	new file:   Assets/SampleScenes/Prefabs/Wall.prefab
+	new file:   Assets/SampleScenes/Prefabs/Wall.prefab.meta
+	new file:   Assets/SampleScenes/Scenes.meta
+	new file:   Assets/SampleScenes/Scenes/2dCharacter.unity
+	new file:   Assets/SampleScenes/Scenes/2dCharacter.unity.meta
+	new file:   Assets/SampleScenes/Scenes/AircraftJet2Axis.unity
+	new file:   Assets/SampleScenes/Scenes/AircraftJet2Axis.unity.meta
+	new file:   Assets/SampleScenes/Scenes/AircraftJetAI.unity
+	new file:   Assets/SampleScenes/Scenes/AircraftJetAI.unity.meta
+	new file:   Assets/SampleScenes/Scenes/AircraftPropeller4Axis.unity
+	new file:   Assets/SampleScenes/Scenes/AircraftPropeller4Axis.unity.meta
+	new file:   Assets/SampleScenes/Scenes/AircraftPropellerAI.unity
+	new file:   Assets/SampleScenes/Scenes/AircraftPropellerAI.unity.meta
+	new file:   Assets/SampleScenes/Scenes/Car.unity
+	new file:   Assets/SampleScenes/Scenes/Car.unity.meta
+	new file:   Assets/SampleScenes/Scenes/CarAIWaypointBased.unity
+	new file:   Assets/SampleScenes/Scenes/CarAIWaypointBased.unity.meta
+	new file:   Assets/SampleScenes/Scenes/CharacterFirstPerson.unity
+	new file:   Assets/SampleScenes/Scenes/CharacterFirstPerson.unity.meta
+	new file:   Assets/SampleScenes/Scenes/CharacterThirdPerson.unity
+	new file:   Assets/SampleScenes/Scenes/CharacterThirdPerson.unity.meta
+	new file:   Assets/SampleScenes/Scenes/CharacterThirdPersonAI.meta
+	new file:   Assets/SampleScenes/Scenes/CharacterThirdPersonAI.unity
+	new file:   Assets/SampleScenes/Scenes/CharacterThirdPersonAI.unity.meta
+	new file:   Assets/SampleScenes/Scenes/CharacterThirdPersonAI/NavMesh.asset
+	new file:   Assets/SampleScenes/Scenes/CharacterThirdPersonAI/NavMesh.asset.meta
+	new file:   Assets/SampleScenes/Scenes/Particles.unity
+	new file:   Assets/SampleScenes/Scenes/Particles.unity.meta
+	new file:   Assets/SampleScenes/Scenes/RollerBall.unity
+	new file:   Assets/SampleScenes/Scenes/RollerBall.unity.meta
+	new file:   Assets/SampleScenes/Scripts.meta
+	new file:   Assets/SampleScenes/Scripts/CameraSwitch.cs
+	new file:   Assets/SampleScenes/Scripts/CameraSwitch.cs.meta
+	new file:   Assets/SampleScenes/Scripts/LevelReset.cs
+	new file:   Assets/SampleScenes/Scripts/LevelReset.cs.meta
+	new file:   Assets/SampleScenes/Scripts/ParticleSceneControls.cs
+	new file:   Assets/SampleScenes/Scripts/ParticleSceneControls.cs.meta
+	new file:   Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs
+	new file:   Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs.meta
+	new file:   Assets/SampleScenes/Scripts/SlowMoButton.cs
+	new file:   Assets/SampleScenes/Scripts/SlowMoButton.cs.meta
+	new file:   Assets/SampleScenes/Shaders.meta
+	new file:   Assets/SampleScenes/Shaders/Skybox-Procedural.shader
+	new file:   Assets/SampleScenes/Shaders/Skybox-Procedural.shader.meta
+	new file:   Assets/SampleScenes/Textures.meta
+	new file:   Assets/SampleScenes/Textures/ChevronAlbedo.png
+	new file:   Assets/SampleScenes/Textures/ChevronAlbedo.png.meta
+	new file:   Assets/SampleScenes/Textures/FlyerAsteroidEmissive.tif
+	new file:   Assets/SampleScenes/Textures/FlyerAsteroidEmissive.tif.meta
+	new file:   Assets/SampleScenes/Textures/FlyerPlayershipAlbedo.tif
+	new file:   Assets/SampleScenes/Textures/FlyerPlayershipAlbedo.tif.meta
+	new file:   Assets/SampleScenes/Textures/FlyerPlayershipEmission.tif
+	new file:   Assets/SampleScenes/Textures/FlyerPlayershipEmission.tif.meta
+	new file:   Assets/SampleScenes/Textures/FlyerPlayershipOcclusion.tif
+	new file:   Assets/SampleScenes/Textures/FlyerPlayershipOcclusion.tif.meta
+	new file:   Assets/SampleScenes/Textures/GUIButtonEmpty.png
+	new file:   Assets/SampleScenes/Textures/GUIButtonEmpty.png.meta
+	new file:   Assets/SampleScenes/Textures/GUIButtonReset.png
+	new file:   Assets/SampleScenes/Textures/GUIButtonReset.png.meta
+	new file:   Assets/SampleScenes/Textures/GUIButtonRun.png
+	new file:   Assets/SampleScenes/Textures/GUIButtonRun.png.meta
+	new file:   Assets/SampleScenes/Textures/GUIButtonSwitchLeft.png
+	new file:   Assets/SampleScenes/Textures/GUIButtonSwitchLeft.png.meta
+	new file:   Assets/SampleScenes/Textures/GUIButtonSwitchRight.png
+	new file:   Assets/SampleScenes/Textures/GUIButtonSwitchRight.png.meta
+	new file:   Assets/SampleScenes/Textures/GUICameraCycle.png
+	new file:   Assets/SampleScenes/Textures/GUICameraCycle.png.meta
+	new file:   Assets/SampleScenes/Textures/GUICameraCycleDown.png
+	new file:   Assets/SampleScenes/Textures/GUICameraCycleDown.png.meta
+	new file:   Assets/SampleScenes/Textures/GUIReticle.png
+	new file:   Assets/SampleScenes/Textures/GUIReticle.png.meta
+	new file:   Assets/SampleScenes/Textures/GUITimescaleFull.png
+	new file:   Assets/SampleScenes/Textures/GUITimescaleFull.png.meta
+	new file:   Assets/SampleScenes/Textures/GUITimescaleSlow.png
+	new file:   Assets/SampleScenes/Textures/GUITimescaleSlow.png.meta
+	new file:   Assets/SampleScenes/Textures/GridEmissive.png
+	new file:   Assets/SampleScenes/Textures/GridEmissive.png.meta
+	new file:   Assets/SampleScenes/Textures/SwatchMauveAlbedo.png
+	new file:   Assets/SampleScenes/Textures/SwatchMauveAlbedo.png.meta
+	new file:   Assets/SampleScenes/Textures/SwatchNavyAlbedo.png
+	new file:   Assets/SampleScenes/Textures/SwatchNavyAlbedo.png.meta
+	new file:   Assets/SampleScenes/Textures/SwatchNavyDarkAlbedo.png
+	new file:   Assets/SampleScenes/Textures/SwatchNavyDarkAlbedo.png.meta
+	new file:   Assets/SampleScenes/Textures/SwatchOrangeAlbedo.png
+	new file:   Assets/SampleScenes/Textures/SwatchOrangeAlbedo.png.meta
+	new file:   Assets/SampleScenes/Textures/SwatchPinkAlbedo.png
+	new file:   Assets/SampleScenes/Textures/SwatchPinkAlbedo.png.meta
+	new file:   Assets/SampleScenes/Textures/SwatchTealAlbedo.png
+	new file:   Assets/SampleScenes/Textures/SwatchTealAlbedo.png.meta
+	new file:   Assets/SampleScenes/Textures/SwatchTurquoiseAlbedo.png
+	new file:   Assets/SampleScenes/Textures/SwatchTurquoiseAlbedo.png.meta
+	new file:   Assets/SampleScenes/Textures/SwatchWhiteAlbedo.png
+	new file:   Assets/SampleScenes/Textures/SwatchWhiteAlbedo.png.meta
+	new file:   Assets/SampleScenes/Textures/SwatchYellowAlbedo.png
+	new file:   Assets/SampleScenes/Textures/SwatchYellowAlbedo.png.meta
+	new file:   Assets/SimpleSpectrum.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/Bottom.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/Bottom.prefab.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/Lower.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/Lower.prefab.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/Middle.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/Middle.prefab.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/ShadedBottom.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/ShadedBottom.prefab.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/ShadedLower.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/ShadedLower.prefab.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/ShadedMiddle.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/ShadedMiddle.prefab.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/SpriteBottom.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/SpriteBottom.prefab.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/SpriteLower.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/SpriteLower.prefab.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/SpriteMiddle.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/SpriteMiddle.prefab.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/UIBottom.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/UIBottom.prefab.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/UILower.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/UILower.prefab.meta
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/UIMiddle.prefab
+	new file:   Assets/SimpleSpectrum/Bar Prefabs/UIMiddle.prefab.meta
+	new file:   Assets/SimpleSpectrum/Demos.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo Assets.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo Assets/MainDemoBar.prefab
+	new file:   Assets/SimpleSpectrum/Demos/Demo Assets/MainDemoBar.prefab.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo Assets/SoundFileOpener.cs
+	new file:   Assets/SimpleSpectrum/Demos/Demo Assets/SoundFileOpener.cs.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo Assets/UILower CustomTexDemo.prefab
+	new file:   Assets/SimpleSpectrum/Demos/Demo Assets/UILower CustomTexDemo.prefab.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Files.unity
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Files.unity.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_FilesSettings.lighting
+	new file:   Assets/SimpleSpectrum/Demos/Demo_FilesSettings.lighting.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Main.unity
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Main.unity.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_MainSettings.lighting
+	new file:   Assets/SimpleSpectrum/Demos/Demo_MainSettings.lighting.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Microphone.unity
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Microphone.unity.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_MicrophoneSettings.lighting
+	new file:   Assets/SimpleSpectrum/Demos/Demo_MicrophoneSettings.lighting.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Muted.unity
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Muted.unity.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_MutedSettings.lighting
+	new file:   Assets/SimpleSpectrum/Demos/Demo_MutedSettings.lighting.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Presets.unity
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Presets.unity.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_PresetsSettings.lighting
+	new file:   Assets/SimpleSpectrum/Demos/Demo_PresetsSettings.lighting.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Sampling.unity
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Sampling.unity.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_SamplingSettings.lighting
+	new file:   Assets/SimpleSpectrum/Demos/Demo_SamplingSettings.lighting.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Textures.unity
+	new file:   Assets/SimpleSpectrum/Demos/Demo_Textures.unity.meta
+	new file:   Assets/SimpleSpectrum/Demos/Demo_TexturesSettings.lighting
+	new file:   Assets/SimpleSpectrum/Demos/Demo_TexturesSettings.lighting.meta
+	new file:   Assets/SimpleSpectrum/Demos/Music credit to Vexento - Check out his stuff!.txt
+	new file:   Assets/SimpleSpectrum/Demos/Music credit to Vexento - Check out his stuff!.txt.meta
+	new file:   Assets/SimpleSpectrum/Demos/Vexento - Return of the Heroes.ogg
+	new file:   Assets/SimpleSpectrum/Demos/Vexento - Return of the Heroes.ogg.meta
+	new file:   Assets/SimpleSpectrum/Misc.meta
+	new file:   Assets/SimpleSpectrum/Misc/BarTexBorder.png
+	new file:   Assets/SimpleSpectrum/Misc/BarTexBorder.png.meta
+	new file:   Assets/SimpleSpectrum/Misc/DemoBG.mat
+	new file:   Assets/SimpleSpectrum/Misc/DemoBG.mat.meta
+	new file:   Assets/SimpleSpectrum/Misc/OutputVolumeIcon.png
+	new file:   Assets/SimpleSpectrum/Misc/OutputVolumeIcon.png.meta
+	new file:   Assets/SimpleSpectrum/Misc/ShadedGradientLerp.mat
+	new file:   Assets/SimpleSpectrum/Misc/ShadedGradientLerp.mat.meta
+	new file:   Assets/SimpleSpectrum/Misc/SimpleSpectrumIcon.png
+	new file:   Assets/SimpleSpectrum/Misc/SimpleSpectrumIcon.png.meta
+	new file:   Assets/SimpleSpectrum/Misc/SimpleSpectrumMuteMixer.mixer
+	new file:   Assets/SimpleSpectrum/Misc/SimpleSpectrumMuteMixer.mixer.meta
+	new file:   Assets/SimpleSpectrum/Misc/SurfaceGradientLerp.shader
+	new file:   Assets/SimpleSpectrum/Misc/SurfaceGradientLerp.shader.meta
+	new file:   Assets/SimpleSpectrum/Misc/lightweightGradient.mat
+	new file:   Assets/SimpleSpectrum/Misc/lightweightGradient.mat.meta
+	new file:   Assets/SimpleSpectrum/Misc/lightweightGradientLerp.shader
+	new file:   Assets/SimpleSpectrum/Misc/lightweightGradientLerp.shader.meta
+	new file:   Assets/SimpleSpectrum/Misc/lightweightGradientLerpSprite.shader
+	new file:   Assets/SimpleSpectrum/Misc/lightweightGradientLerpSprite.shader.meta
+	new file:   Assets/SimpleSpectrum/Misc/lightweightGradientSprite.mat
+	new file:   Assets/SimpleSpectrum/Misc/lightweightGradientSprite.mat.meta
+	new file:   Assets/SimpleSpectrum/Misc/swatchWhite.png
+	new file:   Assets/SimpleSpectrum/Misc/swatchWhite.png.meta
+	new file:   Assets/SimpleSpectrum/Presets.meta
+	new file:   Assets/SimpleSpectrum/Presets/Circular Spectrum 2.prefab
+	new file:   Assets/SimpleSpectrum/Presets/Circular Spectrum 2.prefab.meta
+	new file:   Assets/SimpleSpectrum/Presets/Circular Spectrum.prefab
+	new file:   Assets/SimpleSpectrum/Presets/Circular Spectrum.prefab.meta
+	new file:   Assets/SimpleSpectrum/Presets/L+R Volume Meter.prefab
+	new file:   Assets/SimpleSpectrum/Presets/L+R Volume Meter.prefab.meta
+	new file:   Assets/SimpleSpectrum/Presets/OutputVolume Example.prefab
+	new file:   Assets/SimpleSpectrum/Presets/OutputVolume Example.prefab.meta
+	new file:   Assets/SimpleSpectrum/Presets/Radial Spectrum.prefab
+	new file:   Assets/SimpleSpectrum/Presets/Radial Spectrum.prefab.meta
+	new file:   Assets/SimpleSpectrum/Presets/Spectrum Example.prefab
+	new file:   Assets/SimpleSpectrum/Presets/Spectrum Example.prefab.meta
+	new file:   Assets/SimpleSpectrum/Presets/Spectrum UI Canvas.prefab
+	new file:   Assets/SimpleSpectrum/Presets/Spectrum UI Canvas.prefab.meta
+	new file:   Assets/SimpleSpectrum/Presets/VU Meter Peak & Trough.prefab
+	new file:   Assets/SimpleSpectrum/Presets/VU Meter Peak & Trough.prefab.meta
+	new file:   Assets/SimpleSpectrum/Scripts.meta
+	new file:   Assets/SimpleSpectrum/Scripts/Editor.meta
+	new file:   Assets/SimpleSpectrum/Scripts/Editor/OutputVolumeEditor.cs
+	new file:   Assets/SimpleSpectrum/Scripts/Editor/OutputVolumeEditor.cs.meta
+	new file:   Assets/SimpleSpectrum/Scripts/Editor/SimpleSpectrumEditor.cs
+	new file:   Assets/SimpleSpectrum/Scripts/Editor/SimpleSpectrumEditor.cs.meta
+	new file:   Assets/SimpleSpectrum/Scripts/OutputVolume.cs
+	new file:   Assets/SimpleSpectrum/Scripts/OutputVolume.cs.meta
+	new file:   Assets/SimpleSpectrum/Scripts/SSWebInteract.cs
+	new file:   Assets/SimpleSpectrum/Scripts/SSWebInteract.cs.meta
+	new file:   Assets/SimpleSpectrum/Scripts/SimpleSpectrum.cs
+	new file:   Assets/SimpleSpectrum/Scripts/SimpleSpectrum.cs.meta
+	new file:   Assets/SimpleSpectrum/Scripts/SimpleSpectrumWeb.jslib
+	new file:   Assets/SimpleSpectrum/Scripts/SimpleSpectrumWeb.jslib.meta
+	new file:   Assets/SimpleSpectrum/Scripts/WebGLInject.txt
+	new file:   Assets/SimpleSpectrum/Scripts/WebGLInject.txt.meta
+	new file:   Assets/SimpleSpectrum/SimpleSpectrum_Changelog.txt
+	new file:   Assets/SimpleSpectrum/SimpleSpectrum_Changelog.txt.meta
+	new file:   Assets/SimpleSpectrum/SimpleSpectrum_DOCUMENTATION.txt
+	new file:   Assets/SimpleSpectrum/SimpleSpectrum_DOCUMENTATION.txt.meta
+	new file:   Assets/Standard Assets.meta
+	new file:   Assets/Standard Assets/2D.meta
+	new file:   Assets/Standard Assets/2D/Animations.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyCrouch.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyCrouch.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyCrouchingWalk.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyCrouchingWalk.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyFalling.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyFalling.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyIdle.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyIdle.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump01.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump01.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump02.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump02.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump03.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump03.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump04.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump04.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump05.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump05.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump06.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump06.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump07.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump07.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump08.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump08.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump09.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump09.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump10.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump10.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump11.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyJump11.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyRun.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyRun.anim.meta
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyWalk.anim
+	new file:   Assets/Standard Assets/2D/Animations/RobotBoyWalk.anim.meta
+	new file:   Assets/Standard Assets/2D/Animator.meta
+	new file:   Assets/Standard Assets/2D/Animator/2dCharacterAnimator.controller
+	new file:   Assets/Standard Assets/2D/Animator/2dCharacterAnimator.controller.meta
+	new file:   Assets/Standard Assets/2D/Materials.meta
+	new file:   Assets/Standard Assets/2D/Materials/SpriteLit.mat
+	new file:   Assets/Standard Assets/2D/Materials/SpriteLit.mat.meta
+	new file:   Assets/Standard Assets/2D/PhysicsMaterials.meta
+	new file:   Assets/Standard Assets/2D/PhysicsMaterials/BouncyBox.physicsMaterial2D
+	new file:   Assets/Standard Assets/2D/PhysicsMaterials/BouncyBox.physicsMaterial2D.meta
+	new file:   Assets/Standard Assets/2D/PhysicsMaterials/Slippery.physicsMaterial2D
+	new file:   Assets/Standard Assets/2D/PhysicsMaterials/Slippery.physicsMaterial2D.meta
+	new file:   Assets/Standard Assets/2D/PhysicsMaterials/Sticky.physicsMaterial2D
+	new file:   Assets/Standard Assets/2D/PhysicsMaterials/Sticky.physicsMaterial2D.meta
+	new file:   Assets/Standard Assets/2D/Prefabs.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/CharacterRobotBoy.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/CharacterRobotBoy.prefab.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/CollisionSlider.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/CollisionSlider.prefab.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/CratePink.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/CratePink.prefab.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/ExtentsLeft.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/ExtentsLeft.prefab.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/ExtentsRight.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/ExtentsRight.prefab.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/Killzone.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/Killzone.prefab.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/Platform04x01.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/Platform04x01.prefab.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/Platform08x01.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/Platform08x01.prefab.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/Platform12x01.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/Platform12x01.prefab.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/Platform16x01.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/Platform16x01.prefab.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/Platform36x01.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/Platform36x01.prefab.meta
+	new file:   Assets/Standard Assets/2D/Prefabs/PlatformRamp.prefab
+	new file:   Assets/Standard Assets/2D/Prefabs/PlatformRamp.prefab.meta
+	new file:   Assets/Standard Assets/2D/Scripts.meta
+	new file:   Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs
+	new file:   Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs.meta
+	new file:   Assets/Standard Assets/2D/Scripts/CameraFollow.cs
+	new file:   Assets/Standard Assets/2D/Scripts/CameraFollow.cs.meta
+	new file:   Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs
+	new file:   Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs.meta
+	new file:   Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs
+	new file:   Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs.meta
+	new file:   Assets/Standard Assets/2D/Scripts/Restarter.cs
+	new file:   Assets/Standard Assets/2D/Scripts/Restarter.cs.meta
+	new file:   Assets/Standard Assets/2D/Sprites.meta
+	new file:   Assets/Standard Assets/2D/Sprites/BackgroundGreyGridSprite.png
+	new file:   Assets/Standard Assets/2D/Sprites/BackgroundGreyGridSprite.png.meta
+	new file:   Assets/Standard Assets/2D/Sprites/BackgroundNavyGridSprite.png
+	new file:   Assets/Standard Assets/2D/Sprites/BackgroundNavyGridSprite.png.meta
+	new file:   Assets/Standard Assets/2D/Sprites/CratePinkGridSprite.png
+	new file:   Assets/Standard Assets/2D/Sprites/CratePinkGridSprite.png.meta
+	new file:   Assets/Standard Assets/2D/Sprites/PlatformWhiteSprite.png
+	new file:   Assets/Standard Assets/2D/Sprites/PlatformWhiteSprite.png.meta
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyCrouchSprite.png
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyCrouchSprite.png.meta
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyDeathSprite.png
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyDeathSprite.png.meta
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyIdleSprite.png
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyIdleSprite.png.meta
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyJumpSprite.png
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyJumpSprite.png.meta
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyRollSprite.png
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyRollSprite.png.meta
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyRunSprite.png
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyRunSprite.png.meta
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyWalkSprite.png
+	new file:   Assets/Standard Assets/2D/Sprites/RobotBoyWalkSprite.png.meta
+	new file:   Assets/Standard Assets/Cameras.meta
+	new file:   Assets/Standard Assets/Cameras/CameraGuidelines.txt
+	new file:   Assets/Standard Assets/Cameras/CameraGuidelines.txt.meta
+	new file:   Assets/Standard Assets/Cameras/Prefabs.meta
+	new file:   Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab
+	new file:   Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab.meta
+	new file:   Assets/Standard Assets/Cameras/Prefabs/FreeLookCameraRig.prefab
+	new file:   Assets/Standard Assets/Cameras/Prefabs/FreeLookCameraRig.prefab.meta
+	new file:   Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab
+	new file:   Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab.meta
+	new file:   Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab
+	new file:   Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab.meta
+	new file:   Assets/Standard Assets/Cameras/Scripts.meta
+	new file:   Assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs
+	new file:   Assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs.meta
+	new file:   Assets/Standard Assets/Cameras/Scripts/AutoCam.cs
+	new file:   Assets/Standard Assets/Cameras/Scripts/AutoCam.cs.meta
+	new file:   Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs
+	new file:   Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs.meta
+	new file:   Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs
+	new file:   Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs.meta
+	new file:   Assets/Standard Assets/Cameras/Scripts/LookatTarget.cs
+	new file:   Assets/Standard Assets/Cameras/Scripts/LookatTarget.cs.meta
+	new file:   Assets/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs
+	new file:   Assets/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs.meta
+	new file:   Assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs
+	new file:   Assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs.meta
+	new file:   Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs
+	new file:   Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs.meta
+	new file:   Assets/Standard Assets/Characters.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep04.wav
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep04.wav.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs.meta
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs
+	new file:   Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Materials.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat
+	new file:   Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat
+	new file:   Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Models.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Models/RollerBall.fbx
+	new file:   Assets/Standard Assets/Characters/RollerBall/Models/RollerBall.fbx.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Prefabs.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Prefabs/RollerBall.prefab
+	new file:   Assets/Standard Assets/Characters/RollerBall/Prefabs/RollerBall.prefab.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/RollerBallGuidelines.txt
+	new file:   Assets/Standard Assets/Characters/RollerBall/RollerBallGuidelines.txt.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Scripts.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs
+	new file:   Assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs
+	new file:   Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Textures.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallAlbedo.png
+	new file:   Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallAlbedo.png.meta
+	new file:   Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png
+	new file:   Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Models.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png.meta
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/ThirdPersonCharacterGuidelines.txt
+	new file:   Assets/Standard Assets/Characters/ThirdPersonCharacter/ThirdPersonCharacterGuidelines.txt.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt
+	new file:   Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Prefabs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
+	new file:   Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+	new file:   Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab
+	new file:   Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab
+	new file:   Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab
+	new file:   Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs
+	new file:   Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png.meta
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+	new file:   Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png.meta
+	new file:   Assets/Standard Assets/Editor.meta
+	new file:   Assets/Standard Assets/Editor/CrossPlatformInput.meta
+	new file:   Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs
+	new file:   Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs.meta
+	new file:   Assets/Standard Assets/Editor/Water.meta
+	new file:   Assets/Standard Assets/Editor/Water/Water4.meta
+	new file:   Assets/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs
+	new file:   Assets/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs.meta
+	new file:   Assets/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs
+	new file:   Assets/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs.meta
+	new file:   Assets/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs
+	new file:   Assets/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs.meta
+	new file:   Assets/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs
+	new file:   Assets/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs.meta
+	new file:   Assets/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs
+	new file:   Assets/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs.meta
+	new file:   Assets/Standard Assets/Effects.meta
+	new file:   Assets/Standard Assets/Effects/GlassRefraction.meta
+	new file:   Assets/Standard Assets/Effects/GlassRefraction/Materials.meta
+	new file:   Assets/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat
+	new file:   Assets/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat.meta
+	new file:   Assets/Standard Assets/Effects/GlassRefraction/Shaders.meta
+	new file:   Assets/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader
+	new file:   Assets/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader.meta
+	new file:   Assets/Standard Assets/Effects/GlassRefraction/Textures.meta
+	new file:   Assets/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedAlbedo.tif
+	new file:   Assets/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedAlbedo.tif.meta
+	new file:   Assets/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedNormals.tif
+	new file:   Assets/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedNormals.tif.meta
+	new file:   Assets/Standard Assets/Effects/ImageEffects.meta
+	new file:   Assets/Standard Assets/Effects/ImageEffects/Readme.txt
+	new file:   Assets/Standard Assets/Effects/ImageEffects/Readme.txt.meta
+	new file:   Assets/Standard Assets/Effects/LightCookies.meta
+	new file:   Assets/Standard Assets/Effects/LightCookies/Textures.meta
+	new file:   Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif
+	new file:   Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif.meta
+	new file:   Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightIrregularCookie.tif
+	new file:   Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightIrregularCookie.tif.meta
+	new file:   Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd
+	new file:   Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd.meta
+	new file:   Assets/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif
+	new file:   Assets/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif.meta
+	new file:   Assets/Standard Assets/Effects/LightCookies/Textures/LightSquareCookie.psd
+	new file:   Assets/Standard Assets/Effects/LightCookies/Textures/LightSquareCookie.psd.meta
+	new file:   Assets/Standard Assets/Effects/LightFlares.meta
+	new file:   Assets/Standard Assets/Effects/LightFlares/Flares.meta
+	new file:   Assets/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare
+	new file:   Assets/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare.meta
+	new file:   Assets/Standard Assets/Effects/LightFlares/Flares/FlareSmall.flare
+	new file:   Assets/Standard Assets/Effects/LightFlares/Flares/FlareSmall.flare.meta
+	new file:   Assets/Standard Assets/Effects/LightFlares/Flares/Sun.flare
+	new file:   Assets/Standard Assets/Effects/LightFlares/Flares/Sun.flare.meta
+	new file:   Assets/Standard Assets/Effects/LightFlares/Materials.meta
+	new file:   Assets/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat
+	new file:   Assets/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat.meta
+	new file:   Assets/Standard Assets/Effects/LightFlares/Textures.meta
+	new file:   Assets/Standard Assets/Effects/LightFlares/Textures/Flare50mm.psd
+	new file:   Assets/Standard Assets/Effects/LightFlares/Textures/Flare50mm.psd.meta
+	new file:   Assets/Standard Assets/Effects/LightFlares/Textures/FlareStar.psd
+	new file:   Assets/Standard Assets/Effects/LightFlares/Textures/FlareStar.psd.meta
+	new file:   Assets/Standard Assets/Effects/Projectors.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Guidelines.txt
+	new file:   Assets/Standard Assets/Effects/Projectors/Guidelines.txt.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Materials.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Materials/GridProjector.mat
+	new file:   Assets/Standard Assets/Effects/Projectors/Materials/GridProjector.mat.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Materials/LightProjector.mat
+	new file:   Assets/Standard Assets/Effects/Projectors/Materials/LightProjector.mat.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat
+	new file:   Assets/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Prefabs.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab
+	new file:   Assets/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab
+	new file:   Assets/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Prefabs/GridProjector.prefab
+	new file:   Assets/Standard Assets/Effects/Projectors/Prefabs/GridProjector.prefab.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Shaders.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorLight.shader
+	new file:   Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorLight.shader.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader
+	new file:   Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Textures.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Textures/Falloff.psd
+	new file:   Assets/Standard Assets/Effects/Projectors/Textures/Falloff.psd.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Textures/Grid.psd
+	new file:   Assets/Standard Assets/Effects/Projectors/Textures/Grid.psd.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Textures/Light.psd
+	new file:   Assets/Standard Assets/Effects/Projectors/Textures/Light.psd.meta
+	new file:   Assets/Standard Assets/Effects/Projectors/Textures/Shadow.psd
+	new file:   Assets/Standard Assets/Effects/Projectors/Textures/Shadow.psd.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Materials.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularSmooth.mat
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularSmooth.mat.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Models.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Scenes.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Scenes/TessellationSample.unity
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Scenes/TessellationSample.unity.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Shaders.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularDisplacement.shader
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularDisplacement.shader.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularSmooth.shader
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularSmooth.shader.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Textures.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Textures/CliffHeight.png
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Textures/CliffHeight.png.meta
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png
+	new file:   Assets/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Materials.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat
+	new file:   Assets/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Materials/ToonBasicOutline.mat
+	new file:   Assets/Standard Assets/Effects/ToonShading/Materials/ToonBasicOutline.mat.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat
+	new file:   Assets/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat
+	new file:   Assets/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Shaders.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasic.shader
+	new file:   Assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasic.shader.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasicOutline.shader
+	new file:   Assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasicOutline.shader.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Shaders/ToonLit.shader
+	new file:   Assets/Standard Assets/Effects/ToonShading/Shaders/ToonLit.shader.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Shaders/ToonLitOutline.shader
+	new file:   Assets/Standard Assets/Effects/ToonShading/Shaders/ToonLitOutline.shader.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Textures.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Textures/ToonLit.psd
+	new file:   Assets/Standard Assets/Effects/ToonShading/Textures/ToonLit.psd.meta
+	new file:   Assets/Standard Assets/Effects/ToonShading/Textures/UtilToonGradient.png
+	new file:   Assets/Standard Assets/Effects/ToonShading/Textures/UtilToonGradient.png.meta
+	new file:   Assets/Standard Assets/Environment.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_1.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_1.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/FacingLeaves_4.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/FacingLeaves_4.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Fronds_2.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Fronds_2.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Leaves_3.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Leaves_3.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_1.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_1.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/FacingLeaves_4.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/FacingLeaves_4.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Fronds_2.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Fronds_2.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Leaves_3.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Leaves_3.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_1.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_1.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Fronds_2.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Fronds_2.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Leaves_3.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Leaves_3.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/Billboard.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/Billboard.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Leaves_1.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Leaves_1.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Spec.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Spec.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Spec.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Spec.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/Billboard.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/Billboard.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Fronds_2.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Fronds_2.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Leaves_3.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Leaves_3.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_1.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_1.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Fronds_2.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Fronds_2.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Leaves_3.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Leaves_3.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Leaves_3.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Leaves_3.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Specular.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Specular.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Dekstop_Spec.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Dekstop_Spec.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Thumb_Conifer_Desktop.jpg
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Conifer/Thumb_Conifer_Desktop.jpg.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Spec.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Spec.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/Billboard.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/Billboard.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_1.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_1.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Fronds_2.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Fronds_2.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Leaves_3.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Leaves_3.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Fronds_2.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Fronds_2.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Leaves_3.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Leaves_3.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Fronds_2.mat
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Fronds_2.mat.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Normal.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Normal.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga.meta
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Thumb_Palm_Desktop.jpg
+	new file:   Assets/Standard Assets/Environment/SpeedTree/Palm/Thumb_Palm_Desktop.jpg.meta
+	new file:   Assets/Standard Assets/Environment/TerrainAssets.meta
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures.meta
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd.meta
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd.meta
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures.meta
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd.meta
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd.meta
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd.meta
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp.meta
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp.meta
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd
+	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic).meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/DO_NOT_WORK_IN_VR.txt
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/DO_NOT_WORK_IN_VR.txt.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Materials.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicNighttime.mat
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicNighttime.mat.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Models.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Models/WaterBasicPlane.fbx
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Models/WaterBasicPlane.fbx.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Prefabs.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicDaytime.prefab
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicDaytime.prefab.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicNightime.prefab
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicNightime.prefab.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Scripts.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Shaders.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Shaders/FXWaterBasic.shader
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Shaders/FXWaterBasic.shader.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Textures.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd.meta
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg
+	new file:   Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg.meta
+	new file:   Assets/Standard Assets/Environment/Water.meta
+	new file:   Assets/Standard Assets/Environment/Water/DO_NOT_WORK_IN_VR.txt
+	new file:   Assets/Standard Assets/Environment/Water/DO_NOT_WORK_IN_VR.txt.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Materials.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat
+	new file:   Assets/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat
+	new file:   Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat
+	new file:   Assets/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Models.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Models/WaterPlane.fbx
+	new file:   Assets/Standard Assets/Environment/Water/Water/Models/WaterPlane.fbx.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Prefabs.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab
+	new file:   Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab
+	new file:   Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/Displace.cs
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/Displace.cs.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/Water.cs
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/Water.cs.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs
+	new file:   Assets/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Shaders.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader
+	new file:   Assets/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Textures.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Textures/WaterBump.jpg
+	new file:   Assets/Standard Assets/Environment/Water/Water/Textures/WaterBump.jpg.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd
+	new file:   Assets/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd
+	new file:   Assets/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd
+	new file:   Assets/Standard Assets/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Materials.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Models.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Models/OceanPlane.FBX
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Models/OceanPlane.FBX.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Prefabs.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Advanced.prefab
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Advanced.prefab.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Simple.prefab
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Simple.prefab.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Shaders.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Advanced.shader
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Advanced.shader.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Simple.shader
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Simple.shader.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Shaders/WaterInclude.cginc
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Shaders/WaterInclude.cginc.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Textures.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Textures/SimpleFoam.png
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Textures/SimpleFoam.png.meta
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Textures/SmallWaves.png
+	new file:   Assets/Standard Assets/Environment/Water/Water4/Textures/SmallWaves.png.meta
+	new file:   Assets/Standard Assets/Fonts.meta
+	new file:   Assets/Standard Assets/Fonts/OpenSans.meta
+	new file:   Assets/Standard Assets/Fonts/OpenSans/License!.txt
+	new file:   Assets/Standard Assets/Fonts/OpenSans/License!.txt.meta
+	new file:   Assets/Standard Assets/Fonts/OpenSans/OpenSansBold.ttf
+	new file:   Assets/Standard Assets/Fonts/OpenSans/OpenSansBold.ttf.meta
+	new file:   Assets/Standard Assets/Fonts/OpenSans/OpenSansLight.ttf
+	new file:   Assets/Standard Assets/Fonts/OpenSans/OpenSansLight.ttf.meta
+	new file:   Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf
+	new file:   Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf.meta
+	new file:   Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf
+	new file:   Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf.meta
+	new file:   Assets/Standard Assets/Fonts/Unipix.ttf
+	new file:   Assets/Standard Assets/Fonts/Unipix.ttf.meta
+	new file:   Assets/Standard Assets/ParticleSystems.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleAfterburner.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleAfterburner.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleFireball.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleFireball.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleFirecloud.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleFirecloud.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleFirework.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleFirework.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleFlameLicks.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleFlameLicks.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleFlames.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleFlames.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleGlow.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleGlow.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeMobile.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeMobile.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeVertlit.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeVertlit.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeWhite.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeWhite.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSpark.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSpark.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSplashes.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSplashes.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSpray.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSpray.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSteam.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSteam.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSteamMobile.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleSteamMobile.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleWaterSpray.mat
+	new file:   Assets/Standard Assets/ParticleSystems/Materials/ParticleWaterSpray.mat.meta
+	new file:   Assets/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt
+	new file:   Assets/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Flare.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Flare.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Hose.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Hose.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Steam.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/Steam.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/SteamMobile.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/SteamMobile.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab
+	new file:   Assets/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/Explosive.cs
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/Explosive.cs.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/FireLight.cs
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/FireLight.cs.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/Hose.cs
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/Hose.cs.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs
+	new file:   Assets/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Shaders.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAdd.shader
+	new file:   Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAdd.shader.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAddSoft.shader
+	new file:   Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAddSoft.shader.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAlpha.shader
+	new file:   Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAlpha.shader.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleFireballSheet.png
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleFireballSheet.png.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleFirecloud.png
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleFirecloud.png.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleFlameLickSheet.png
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleFlameLickSheet.png.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleFlare.png
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/ParticleFlare.png.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/Spark.png
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/Spark.png.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/SplashesFineParticle.png
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/SplashesFineParticle.png.meta
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/SplashesLargeParticle.png
+	new file:   Assets/Standard Assets/ParticleSystems/Textures/SplashesLargeParticle.png.meta
+	new file:   Assets/Standard Assets/PhysicsMaterials.meta
+	new file:   Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial
+	new file:   Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial.meta
+	new file:   Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial
+	new file:   Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial.meta
+	new file:   Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial
+	new file:   Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial.meta
+	new file:   Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial
+	new file:   Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial.meta
+	new file:   Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial
+	new file:   Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial.meta
+	new file:   Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial
+	new file:   Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial.meta
+	new file:   Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial
+	new file:   Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial.meta
+	new file:   Assets/Standard Assets/Prototyping.meta
+	new file:   Assets/Standard Assets/Prototyping/Materials.meta
+	new file:   Assets/Standard Assets/Prototyping/Materials/NavyGrid.mat
+	new file:   Assets/Standard Assets/Prototyping/Materials/NavyGrid.mat.meta
+	new file:   Assets/Standard Assets/Prototyping/Materials/NavySmooth.mat
+	new file:   Assets/Standard Assets/Prototyping/Materials/NavySmooth.mat.meta
+	new file:   Assets/Standard Assets/Prototyping/Materials/PinkGrid.mat
+	new file:   Assets/Standard Assets/Prototyping/Materials/PinkGrid.mat.meta
+	new file:   Assets/Standard Assets/Prototyping/Materials/PinkSmooth.mat
+	new file:   Assets/Standard Assets/Prototyping/Materials/PinkSmooth.mat.meta
+	new file:   Assets/Standard Assets/Prototyping/Materials/YellowGrid.mat
+	new file:   Assets/Standard Assets/Prototyping/Materials/YellowGrid.mat.meta
+	new file:   Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat
+	new file:   Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat.meta
+	new file:   Assets/Standard Assets/Prototyping/Models.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/BlockPrototype04x04x04.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/BlockPrototype04x04x04.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/CubePrototype02x02x02.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/CubePrototype02x02x02.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/CubePrototype04x04x04.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/CubePrototype04x04x04.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/CubePrototype08x08x08.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/CubePrototype08x08x08.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/FloorPrototype08x01x08.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/FloorPrototype08x01x08.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/FloorPrototype64x01x64.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/FloorPrototype64x01x64.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/HousePrototype16x16x24.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/HousePrototype16x16x24.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/JoinInnerPrototype01x06x01.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/JoinInnerPrototype01x06x01.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/JoinMidPrototype04x06x01.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/JoinMidPrototype04x06x01.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/JoinOuterPrototype02x06x02.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/JoinOuterPrototype02x06x02.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/PillarPrototype02x08x02.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/PillarPrototype02x08x02.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/PlatformPrototype02x01x02.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/PlatformPrototype02x01x02.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/PlatformPrototype04x01x04.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/PlatformPrototype04x01x04.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/PlatformPrototype08x01x08.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/PlatformPrototype08x01x08.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/RampPrototype04x02x02.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/RampPrototype04x02x02.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/StepsPrototype04x02x02.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/StepsPrototype04x02x02.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Models/WallPrototype08x08x01.fbx
+	new file:   Assets/Standard Assets/Prototyping/Models/WallPrototype08x08x01.fbx.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/BlockPrototype04x04x04.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/BlockPrototype04x04x04.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/CubePrototype02x02x02.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/CubePrototype02x02x02.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/CubePrototype04x04x04.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/CubePrototype04x04x04.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/CubePrototype08x08x08.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/CubePrototype08x08x08.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype04x01x04.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype04x01x04.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype08x01x08.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype08x01x08.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype64x01x64.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype64x01x64.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/HousePrototype16x16x24.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/HousePrototype16x16x24.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/JoinInnerPrototype01x06x01.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/JoinInnerPrototype01x06x01.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/JoinMidPrototype04x06x01.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/JoinMidPrototype04x06x01.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/JoinOuterPrototype02x06x02.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/JoinOuterPrototype02x06x02.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PickupPrototype.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PickupPrototype.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype01x02x01.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype01x02x01.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype02x08x02.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype02x08x02.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype02x01x02.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype02x01x02.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype04x01x04.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype04x01x04.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype08x01x08.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype08x01x08.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/RampPrototype04x02x02.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/RampPrototype04x02x02.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/StepsPrototype04x02x02.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/StepsPrototype04x02x02.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/WallPrototype08x08x01.prefab
+	new file:   Assets/Standard Assets/Prototyping/Prefabs/WallPrototype08x08x01.prefab.meta
+	new file:   Assets/Standard Assets/Prototyping/Shaders.meta
+	new file:   Assets/Standard Assets/Prototyping/Shaders/WorldCoordDiffuse.shader
+	new file:   Assets/Standard Assets/Prototyping/Shaders/WorldCoordDiffuse.shader.meta
+	new file:   Assets/Standard Assets/Prototyping/Textures.meta
+	new file:   Assets/Standard Assets/Prototyping/Textures/GridEmissive.png
+	new file:   Assets/Standard Assets/Prototyping/Textures/GridEmissive.png.meta
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchMauveAlbedo.png
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchMauveAlbedo.png.meta
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchNavyAlbedo.png
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchNavyAlbedo.png.meta
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchNavyDarkAlbedo.png
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchNavyDarkAlbedo.png.meta
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchOrangeAlbedo.png
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchOrangeAlbedo.png.meta
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchPinkDAlbedo.png
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchPinkDAlbedo.png.meta
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchTealAlbedo.png
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchTealAlbedo.png.meta
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchTurquoiseAlbedo.png
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchTurquoiseAlbedo.png.meta
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchWhiteAlbedo.png
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchWhiteAlbedo.png.meta
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchYellowAlbedo.png
+	new file:   Assets/Standard Assets/Prototyping/Textures/SwatchYellowAlbedo.png.meta
+	new file:   Assets/Standard Assets/Utility.meta
+	new file:   Assets/Standard Assets/Utility/ActivateTrigger.cs
+	new file:   Assets/Standard Assets/Utility/ActivateTrigger.cs.meta
+	new file:   Assets/Standard Assets/Utility/AlphaButtonClickMask.cs
+	new file:   Assets/Standard Assets/Utility/AlphaButtonClickMask.cs.meta
+	new file:   Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs
+	new file:   Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs.meta
+	new file:   Assets/Standard Assets/Utility/AutoMoveAndRotate.cs
+	new file:   Assets/Standard Assets/Utility/AutoMoveAndRotate.cs.meta
+	new file:   Assets/Standard Assets/Utility/CameraRefocus.cs
+	new file:   Assets/Standard Assets/Utility/CameraRefocus.cs.meta
+	new file:   Assets/Standard Assets/Utility/CurveControlledBob.cs
+	new file:   Assets/Standard Assets/Utility/CurveControlledBob.cs.meta
+	new file:   Assets/Standard Assets/Utility/DragRigidbody.cs
+	new file:   Assets/Standard Assets/Utility/DragRigidbody.cs.meta
+	new file:   Assets/Standard Assets/Utility/DynamicShadowSettings.cs
+	new file:   Assets/Standard Assets/Utility/DynamicShadowSettings.cs.meta
+	new file:   Assets/Standard Assets/Utility/EventSystemChecker.cs
+	new file:   Assets/Standard Assets/Utility/EventSystemChecker.cs.meta
+	new file:   Assets/Standard Assets/Utility/FOVKick.cs
+	new file:   Assets/Standard Assets/Utility/FOVKick.cs.meta
+	new file:   Assets/Standard Assets/Utility/FPSCounter.cs
+	new file:   Assets/Standard Assets/Utility/FPSCounter.cs.meta
+	new file:   Assets/Standard Assets/Utility/FollowTarget.cs
+	new file:   Assets/Standard Assets/Utility/FollowTarget.cs.meta
+	new file:   Assets/Standard Assets/Utility/ForcedReset.cs
+	new file:   Assets/Standard Assets/Utility/ForcedReset.cs.meta
+	new file:   Assets/Standard Assets/Utility/LerpControlledBob.cs
+	new file:   Assets/Standard Assets/Utility/LerpControlledBob.cs.meta
+	new file:   Assets/Standard Assets/Utility/ObjectResetter.cs
+	new file:   Assets/Standard Assets/Utility/ObjectResetter.cs.meta
+	new file:   Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs
+	new file:   Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs.meta
+	new file:   Assets/Standard Assets/Utility/PlatformSpecificContent.cs
+	new file:   Assets/Standard Assets/Utility/PlatformSpecificContent.cs.meta
+	new file:   Assets/Standard Assets/Utility/Prefabs.meta
+	new file:   Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab
+	new file:   Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab.meta
+	new file:   Assets/Standard Assets/Utility/SimpleActivatorMenu.cs
+	new file:   Assets/Standard Assets/Utility/SimpleActivatorMenu.cs.meta
+	new file:   Assets/Standard Assets/Utility/SimpleMouseRotator.cs
+	new file:   Assets/Standard Assets/Utility/SimpleMouseRotator.cs.meta
+	new file:   Assets/Standard Assets/Utility/SmoothFollow.cs
+	new file:   Assets/Standard Assets/Utility/SmoothFollow.cs.meta
+	new file:   Assets/Standard Assets/Utility/TimedObjectActivator.cs
+	new file:   Assets/Standard Assets/Utility/TimedObjectActivator.cs.meta
+	new file:   Assets/Standard Assets/Utility/TimedObjectDestructor.cs
+	new file:   Assets/Standard Assets/Utility/TimedObjectDestructor.cs.meta
+	new file:   Assets/Standard Assets/Utility/WaypointCircuit.cs
+	new file:   Assets/Standard Assets/Utility/WaypointCircuit.cs.meta
+	new file:   Assets/Standard Assets/Utility/WaypointProgressTracker.cs
+	new file:   Assets/Standard Assets/Utility/WaypointProgressTracker.cs.meta
+	new file:   Assets/Standard Assets/Vehicles.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/AircraftGuidelines.txt
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/AircraftGuidelines.txt.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearLower.anim
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearLower.anim.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearLowered.anim
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearLowered.anim.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaise.anim
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaise.anim.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaised.anim
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaised.anim.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/JetPlane.controller
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/JetPlane.controller.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearLower.anim
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearLower.anim.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearLowered.anim
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearLowered.anim.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaise.anim
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaise.anim.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaised.anim
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaised.anim.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/PropPlane.controller
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Animation/PropPlane.controller.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Audio.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Audio/FlightWind.wav
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Audio/FlightWind.wav.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Audio/JetEngine.wav
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Audio/JetEngine.wav.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Audio/PropellerEngine.wav
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Audio/PropellerEngine.wav.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageGrey.mat
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageGrey.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetGrey.mat
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetGrey.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetWhite.mat
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetWhite.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersGrey.mat
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersGrey.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersWhite.mat
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersWhite.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleAfterburner.mat
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleAfterburner.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleContrail.mat
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleContrail.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleJetTrail.mat
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleJetTrail.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Models.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsJet.fbx
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsJet.fbx.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Prefabs.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJet.prefab
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJet.prefab.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJetAI.prefab
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJetAI.prefab.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropeller.prefab
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropeller.prefab.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropellerAi.prefab
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropellerAi.prefab.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageNormals.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageNormals.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageOcclusion.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageOcclusion.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01GreyAlbedo.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01GreyAlbedo.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01WhiteAlbedo.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01WhiteAlbedo.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02GreyAlbedo.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02GreyAlbedo.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02WhiteAlbedo.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02WhiteAlbedo.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03GreyAlbedo.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03GreyAlbedo.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03WhiteAlbedo.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03WhiteAlbedo.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetOcclusion.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetOcclusion.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerNormals.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerNormals.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerOcclusion.png
+	new file:   Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerOcclusion.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Car.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Audio.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Audio/AccelerationHigh.wav
+	new file:   Assets/Standard Assets/Vehicles/Car/Audio/AccelerationHigh.wav.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Audio/AccelerationLow.wav
+	new file:   Assets/Standard Assets/Vehicles/Car/Audio/AccelerationLow.wav.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Audio/DecelerationHigh.wav
+	new file:   Assets/Standard Assets/Vehicles/Car/Audio/DecelerationHigh.wav.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Audio/DecelerationLow.wav
+	new file:   Assets/Standard Assets/Vehicles/Car/Audio/DecelerationLow.wav.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Audio/Skid.wav
+	new file:   Assets/Standard Assets/Vehicles/Car/Audio/Skid.wav.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/CarGuidelines.txt
+	new file:   Assets/Standard Assets/Vehicles/Car/CarGuidelines.txt.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/ParticleBurnout.mat
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/ParticleBurnout.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/ParticleSmokeWhite.mat
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/ParticleSmokeWhite.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyGrey.mat
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyGrey.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyWhite.mat
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyWhite.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversGrey.mat
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversGrey.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightGlows.mat
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightGlows.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelGrey.mat
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelGrey.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelWhite.mat
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelWhite.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/TrailSkid.mat
+	new file:   Assets/Standard Assets/Vehicles/Car/Materials/TrailSkid.mat.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Models.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Models/SkyCar.fbx
+	new file:   Assets/Standard Assets/Vehicles/Car/Models/SkyCar.fbx.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Prefabs.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Prefabs/Car.prefab
+	new file:   Assets/Standard Assets/Vehicles/Car/Prefabs/Car.prefab.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Prefabs/CarWaypointBased.prefab
+	new file:   Assets/Standard Assets/Vehicles/Car/Prefabs/CarWaypointBased.prefab.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Prefabs/SkidTrail.prefab
+	new file:   Assets/Standard Assets/Vehicles/Car/Prefabs/SkidTrail.prefab.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/Suspension.cs
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/Suspension.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs
+	new file:   Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Shaders.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Shaders/DiffuseReflectiveShader.shader
+	new file:   Assets/Standard Assets/Vehicles/Car/Shaders/DiffuseReflectiveShader.shader.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpec.shader
+	new file:   Assets/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpec.shader.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpecTransp.shader
+	new file:   Assets/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpecTransp.shader.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/ParticleCloudWhite.png
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/ParticleCloudWhite.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkidTrailAlbedo.png
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkidTrailAlbedo.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkyCarBodyNormals.png
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkyCarBodyNormals.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkyCarBodyOcclusion.png
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkyCarBodyOcclusion.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelNormals.png
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelNormals.png.meta
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelOcclusion.png
+	new file:   Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelOcclusion.png.meta
+	new file:   Assets/TextMesh Pro.meta
+	new file:   Assets/TextMesh Pro/Documentation.meta
+	new file:   Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+	new file:   Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+	new file:   Assets/TextMesh Pro/Resources.meta
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+	new file:   Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+	new file:   Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+	new file:   Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+	new file:   Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc
+	new file:   Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta
+	new file:   Assets/TextMesh Pro/Resources/Sprite Assets.meta
+	new file:   Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+	new file:   Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+	new file:   Assets/TextMesh Pro/Resources/Style Sheets.meta
+	new file:   Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+	new file:   Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+	new file:   Assets/TextMesh Pro/Resources/TMP Settings.asset
+	new file:   Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+	new file:   Assets/TextMesh Pro/Sprites.meta
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne.json
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne.png
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+	new file:   Assets/Tree 1_Textures.meta
+	new file:   Assets/Tree 1_Textures/diffuse.png
+	new file:   Assets/Tree 1_Textures/diffuse.png.meta
+	new file:   Assets/Tree 1_Textures/normal_specular.png
+	new file:   Assets/Tree 1_Textures/normal_specular.png.meta
+	new file:   Assets/Tree 1_Textures/shadow.png
+	new file:   Assets/Tree 1_Textures/shadow.png.meta
+	new file:   Assets/Tree 1_Textures/translucency_gloss.png
+	new file:   Assets/Tree 1_Textures/translucency_gloss.png.meta
+	new file:   Assets/Tree_Textures.meta
+	new file:   Assets/Tree_Textures/diffuse.png
+	new file:   Assets/Tree_Textures/diffuse.png.meta
+	new file:   Assets/Tree_Textures/normal_specular.png
+	new file:   Assets/Tree_Textures/normal_specular.png.meta
+	new file:   Assets/Tree_Textures/shadow.png
+	new file:   Assets/Tree_Textures/shadow.png.meta
+	new file:   Assets/Tree_Textures/translucency_gloss.png
+	new file:   Assets/Tree_Textures/translucency_gloss.png.meta
+	new file:   Assets/UpDown.anim
+	new file:   Assets/UpDown.anim.meta
+	new file:   Assets/Vol_LED.meta
+	new file:   Assets/Vol_LED/Materials.meta
+	new file:   Assets/Vol_LED/Materials/X Axis.mat
+	new file:   Assets/Vol_LED/Materials/X Axis.mat.meta
+	new file:   Assets/Vol_LED/Materials/Y  Axis.mat
+	new file:   Assets/Vol_LED/Materials/Y  Axis.mat.meta
+	new file:   Assets/Vol_LED/Materials/Z Axis.mat
+	new file:   Assets/Vol_LED/Materials/Z Axis.mat.meta
+	new file:   Assets/Vol_LED/Music.meta
+	new file:   "Assets/Vol_LED/Music/#8 Regret - Splatoon 2\357\274\232 Octo Expansion [OST] [WaZp260ohow].mp3"
+	new file:   "Assets/Vol_LED/Music/#8 Regret - Splatoon 2\357\274\232 Octo Expansion [OST] [WaZp260ohow].mp3.meta"
+	new file:   Assets/Vol_LED/Music/20Hz to 20kHz Frequency Sweep (Logarithmic) 1080p HD [dU80Fagdy28].mp3
+	new file:   Assets/Vol_LED/Music/20Hz to 20kHz Frequency Sweep (Logarithmic) 1080p HD [dU80Fagdy28].mp3.meta
+	new file:   "Assets/Vol_LED/Music/YOASOBI\343\200\214\343\202\242\343\202\244\343\203\211\343\203\253\343\200\215 Official Music Video [ZRtdQ81jPUQ].m4a"
+	new file:   "Assets/Vol_LED/Music/YOASOBI\343\200\214\343\202\242\343\202\244\343\203\211\343\203\253\343\200\215 Official Music Video [ZRtdQ81jPUQ].m4a.meta"
+	new file:   "Assets/Vol_LED/Music/YOASOBI\343\200\214\343\202\242\343\202\244\343\203\211\343\203\253\343\200\215 Official Music Video [ZRtdQ81jPUQ].mp3"
+	new file:   "Assets/Vol_LED/Music/YOASOBI\343\200\214\343\202\242\343\202\244\343\203\211\343\203\253\343\200\215 Official Music Video [ZRtdQ81jPUQ].mp3.meta"
+	new file:   "Assets/Vol_LED/Music/\345\210\235\351\237\263\343\203\237\343\202\257\343\201\214\345\243\260\345\204\252\343\201\256\343\202\210\343\201\206\343\201\253\343\201\227\343\202\203\343\201\271\343\201\243\343\201\246\343\203\251\343\203\203\343\203\227\343\201\231\343\202\213\346\233\262\343\200\216\343\203\223\343\203\220\343\203\217\343\203\224\343\200\217\342\247\270 Mitchie M [WiUjG9fF3zw].mp3"
+	new file:   "Assets/Vol_LED/Music/\345\210\235\351\237\263\343\203\237\343\202\257\343\201\214\345\243\260\345\204\252\343\201\256\343\202\210\343\201\206\343\201\253\343\201\227\343\202\203\343\201\271\343\201\243\343\201\246\343\203\251\343\203\203\343\203\227\343\201\231\343\202\213\346\233\262\343\200\216\343\203\223\343\203\220\343\203\217\343\203\224\343\200\217\342\247\270 Mitchie M [WiUjG9fF3zw].mp3.meta"
+	new file:   Assets/Vol_LED/Scenes.meta
+	new file:   Assets/Vol_LED/Scenes/Cube (2).controller
+	new file:   Assets/Vol_LED/Scenes/Cube (2).controller.meta
+	new file:   Assets/Vol_LED/Scenes/Demo Scene Falling blocks.unity
+	new file:   Assets/Vol_LED/Scenes/Demo Scene Falling blocks.unity.meta
+	new file:   Assets/Vol_LED/Scenes/GyroscopeSoundReactive.unity
+	new file:   Assets/Vol_LED/Scenes/GyroscopeSoundReactive.unity.meta
+	new file:   Assets/Vol_LED/Scenes/PhysicsGunSampleScene.meta
+	new file:   Assets/Vol_LED/Scenes/PhysicsGunSampleScene/LightingData.asset
+	new file:   Assets/Vol_LED/Scenes/PhysicsGunSampleScene/LightingData.asset.meta
+	new file:   Assets/Vol_LED/Scenes/PhysicsGunSampleScene/ReflectionProbe-0.exr
+	new file:   Assets/Vol_LED/Scenes/PhysicsGunSampleScene/ReflectionProbe-0.exr.meta
+	new file:   Assets/Vol_LED/Scenes/PhysicsGunSampleSceneSettings.lighting
+	new file:   Assets/Vol_LED/Scenes/PhysicsGunSampleSceneSettings.lighting.meta
+	new file:   Assets/Vol_LED/Scenes/SimpleSetup.unity
+	new file:   Assets/Vol_LED/Scenes/SimpleSetup.unity.meta
+	new file:   Assets/Vol_LED/Scenes/Sweep Away On Enable.controller
+	new file:   Assets/Vol_LED/Scenes/Sweep Away On Enable.controller.meta
+	new file:   Assets/Vol_LED/Scenes/Sweep.anim
+	new file:   Assets/Vol_LED/Scenes/Sweep.anim.meta
+	new file:   Assets/Vol_LED/Scenes/SweepAway.anim
+	new file:   Assets/Vol_LED/Scenes/SweepAway.anim.meta
+	new file:   Assets/Vol_LED/Scripts.meta
+	new file:   Assets/Vol_LED/Scripts/AnimateUpDown.cs
+	new file:   Assets/Vol_LED/Scripts/AnimateUpDown.cs.meta
+	new file:   Assets/Vol_LED/Scripts/GetBrainData.cs
+	new file:   Assets/Vol_LED/Scripts/GetBrainData.cs.meta
+	new file:   Assets/Vol_LED/Scripts/GetBrinData.cs
+	new file:   Assets/Vol_LED/Scripts/GetBrinData.cs.meta
+	new file:   Assets/Vol_LED/Scripts/GyroReceive.cs
+	new file:   Assets/Vol_LED/Scripts/GyroReceive.cs.meta
+	new file:   Assets/Vol_LED/Scripts/MicrophoneTest.cs
+	new file:   Assets/Vol_LED/Scripts/MicrophoneTest.cs.meta
+	new file:   Assets/Vol_LED/Scripts/RecordingManager.cs
+	new file:   Assets/Vol_LED/Scripts/RecordingManager.cs.meta
+	new file:   Assets/Vol_LED/Scripts/SendCollision.cs
+	new file:   Assets/Vol_LED/Scripts/SendCollision.cs.meta
+	new file:   Assets/Vol_LED/Scripts/ShockAnimation.cs
+	new file:   Assets/Vol_LED/Scripts/ShockAnimation.cs.meta
+	new file:   Assets/Vol_LED/Scripts/SpawnLed.cs
+	new file:   Assets/Vol_LED/Scripts/SpawnLed.cs.meta
+	new file:   Assets/Vol_LED/Scripts/SystemAudio.cs
+	new file:   Assets/Vol_LED/Scripts/SystemAudio.cs.meta
+	new file:   Assets/Vol_LED/Scripts/Visualize.cs
+	new file:   Assets/Vol_LED/Scripts/Visualize.cs.meta
+	new file:   Assets/Vol_LED/Scripts/colorChange.cs
+	new file:   Assets/Vol_LED/Scripts/colorChange.cs.meta
+	new file:   Assets/_PhysicsGunAssets.meta
+	new file:   Assets/_PhysicsGunAssets/Materials.meta
+	new file:   Assets/_PhysicsGunAssets/Materials/LaserMaterial.mat
+	new file:   Assets/_PhysicsGunAssets/Materials/LaserMaterial.mat.meta
+	new file:   Assets/_PhysicsGunAssets/Scripts.meta
+	new file:   Assets/_PhysicsGunAssets/Scripts/AngleSlider.cs
+	new file:   Assets/_PhysicsGunAssets/Scripts/AngleSlider.cs.meta
+	new file:   Assets/_PhysicsGunAssets/Scripts/AxisArrows.cs
+	new file:   Assets/_PhysicsGunAssets/Scripts/AxisArrows.cs.meta
+	new file:   Assets/_PhysicsGunAssets/Scripts/FPSControllerBridge.cs
+	new file:   Assets/_PhysicsGunAssets/Scripts/FPSControllerBridge.cs.meta
+	new file:   Assets/_PhysicsGunAssets/Scripts/GUIController.cs
+	new file:   Assets/_PhysicsGunAssets/Scripts/GUIController.cs.meta
+	new file:   Assets/_PhysicsGunAssets/Scripts/GunLineRenderer.cs
+	new file:   Assets/_PhysicsGunAssets/Scripts/GunLineRenderer.cs.meta
+	new file:   Assets/_PhysicsGunAssets/Scripts/PhysicsGunInteractionBehavior.cs
+	new file:   Assets/_PhysicsGunAssets/Scripts/PhysicsGunInteractionBehavior.cs.meta
+	new file:   Assets/_PhysicsGunAssets/Terrain.meta
+	new file:   Assets/_PhysicsGunAssets/Terrain/GrassLayer.terrainlayer
+	new file:   Assets/_PhysicsGunAssets/Terrain/GrassLayer.terrainlayer.meta
+	new file:   Assets/_PhysicsGunAssets/Terrain/TestTerrain.asset
+	new file:   Assets/_PhysicsGunAssets/Terrain/TestTerrain.asset.meta
+	new file:   Assets/_PhysicsGunAssets/Textures.meta
+	new file:   Assets/_PhysicsGunAssets/Textures/13330-laserbeamblue.jpg
+	new file:   Assets/_PhysicsGunAssets/Textures/13330-laserbeamblue.jpg.meta
+	new file:   Assets/_PhysicsGunAssets/Textures/texture_info.txt
+	new file:   Assets/_PhysicsGunAssets/Textures/texture_info.txt.meta
+	new file:   LICENSE
+	new file:   Packages/jp.keijiro.lasp/Editor.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/AudioLevelTrackerEditor.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/AudioLevelTrackerEditor.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/ComponentSelector.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/ComponentSelector.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/CoreEditorUtils.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/CoreEditorUtils.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/DeviceSelector.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/DeviceSelector.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/DynamicRangeEditor.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/DynamicRangeEditor.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/Lasp.Editor.asmdef
+	new file:   Packages/jp.keijiro.lasp/Editor/Lasp.Editor.asmdef.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/LevelMeterDrawer.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/LevelMeterDrawer.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/PropertyBinderEditor.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/PropertyBinderEditor.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/PropertySelector.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/PropertySelector.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/SpectrumAnalyzerEditor.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/SpectrumAnalyzerEditor.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/SpectrumDrawer.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/SpectrumDrawer.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/SpectrumToTextureEditor.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/SpectrumToTextureEditor.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Editor/Utility.cs
+	new file:   Packages/jp.keijiro.lasp/Editor/Utility.cs.meta
+	new file:   Packages/jp.keijiro.lasp/LICENSE
+	new file:   Packages/jp.keijiro.lasp/LICENSE.meta
+	new file:   Packages/jp.keijiro.lasp/README.md
+	new file:   Packages/jp.keijiro.lasp/README.md.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/AudioLevelTracker.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/AudioLevelTracker.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/AudioSystem.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/AudioSystem.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/DeviceDescriptor.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/DeviceDescriptor.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/InputStream.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/InputStream.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/FftBuffer.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/FftBuffer.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/InputDeviceHandle.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/InputDeviceHandle.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/InputDeviceList.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/InputDeviceList.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/LevelMeter.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/LevelMeter.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/LogScaler.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/LogScaler.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/MultibandFilter.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/MultibandFilter.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/RingBuffer.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/RingBuffer.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/Utility.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/Internal/Utility.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/Lasp.Runtime.asmdef
+	new file:   Packages/jp.keijiro.lasp/Runtime/Lasp.Runtime.asmdef.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/PropertyBinder.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/PropertyBinder.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/SpectrumAnalyzer.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/SpectrumAnalyzer.cs.meta
+	new file:   Packages/jp.keijiro.lasp/Runtime/SpectrumToTexture.cs
+	new file:   Packages/jp.keijiro.lasp/Runtime/SpectrumToTexture.cs.meta
+	new file:   Packages/jp.keijiro.lasp/package.json
+	new file:   Packages/jp.keijiro.lasp/package.json.meta
+	new file:   Packages/manifest.json
+	new file:   Packages/packages-lock.json
+	new file:   ProjectSettings/AudioManager.asset
+	new file:   ProjectSettings/ClusterInputManager.asset
+	new file:   ProjectSettings/DynamicsManager.asset
+	new file:   ProjectSettings/EditorBuildSettings.asset
+	new file:   ProjectSettings/EditorSettings.asset
+	new file:   ProjectSettings/GraphicsSettings.asset
+	new file:   ProjectSettings/InputManager.asset
+	new file:   ProjectSettings/MemorySettings.asset
+	new file:   ProjectSettings/NavMeshAreas.asset
+	new file:   ProjectSettings/PackageManagerSettings.asset
+	new file:   ProjectSettings/Packages/com.unity.services.core/Settings.json
+	new file:   ProjectSettings/Physics2DSettings.asset
+	new file:   ProjectSettings/PresetManager.asset
+	new file:   ProjectSettings/ProjectSettings.asset
+	new file:   ProjectSettings/ProjectVersion.txt
+	new file:   ProjectSettings/QualitySettings.asset
+	new file:   ProjectSettings/SceneTemplateSettings.json
+	new file:   ProjectSettings/TagManager.asset
+	new file:   ProjectSettings/TimeManager.asset
+	new file:   ProjectSettings/UnityConnectSettings.asset
+	new file:   ProjectSettings/VFXManager.asset
+	new file:   ProjectSettings/VersionControlSettings.asset
+	new file:   mono_crash.mem.3029.1.blob
+	new file:   mono_crash.mem.3063.1.blob
+	new file:   mono_crash.mem.3084.1.blob
+	new file:   mono_crash.mem.61325.1.blob
+	new file:   mono_crash.mem.6196.1.blob
+	new file:   mono_crash.mem.8796.1.blob
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.vscode/
+	.vsconfig
+	status
+

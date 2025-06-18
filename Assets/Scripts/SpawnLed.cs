@@ -1,14 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+using UnityEngine;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using UnityEngine;
 using System.Threading;
-using System.Diagnostics;
-using Debug = UnityEngine.Debug;
 using System;
+using System.IO;
 
+[ExecuteAlways] // Runs in both Editor and Play Mode
 public class SpawnLed : MonoBehaviour
 {
     Thread mThread;
@@ -16,47 +17,89 @@ public class SpawnLed : MonoBehaviour
     public int connectionPort = 25001;
     public GameObject led;
     public GameObject ledHolder;
-    private GameObject newLed; // Modify attributes right after spawn, stores newest LED
+    private GameObject newLed;
     IPAddress localAdd;
     private bool newPos = false;
-    private int index = 0; // Python script always goes from 0 to numLeds, so index can be derived locally
-    // private bool centerOrigin;
+    private int index = 0;
     private bool endReceive = false;
+    private bool restart = false;
     TcpListener listener;
     TcpClient client;
     Vector3 receivedPos = Vector3.zero;
-
     bool running;
 
-    private void Update()
+    private void OnEnable()
     {
-        // transform.position = receivedPos; //assigning receivedPos in SendAndReceiveData()
+#if UNITY_EDITOR
+        // Register update method when in edit mode
+        if (!Application.isPlaying)
+            EditorApplication.update += EditorUpdate;
+#endif
+    }
+
+    private void OnDisable()
+    {
+#if UNITY_EDITOR
+        if (!Application.isPlaying)
+            EditorApplication.update -= EditorUpdate;
+#endif
+        StopThread();
+    }
+
+    void Start()
+    {
+        if (Application.isPlaying || Application.isEditor)
+        {
+            if (mThread == null || !mThread.IsAlive)
+            {
+                mThread = new Thread(GetInfo);
+                mThread.IsBackground = true;
+                mThread.Start();
+            }
+        }
+    }
+
+    void Update()
+    {
+        if (!Application.isPlaying) return;
+        HandleSpawnAndRestart();
+    }
+
+#if UNITY_EDITOR
+    void EditorUpdate()
+    {
+        if (Application.isPlaying) return;
+        HandleSpawnAndRestart();
+    }
+#endif
+
+    void HandleSpawnAndRestart()
+    {
         if (newPos)
         {
-
             newLed = Instantiate(led);
             newLed.gameObject.GetComponent<SendCollision>().index = index;
             newLed.transform.SetParent(ledHolder.transform);
             newLed.transform.localPosition = receivedPos;
-            index += 1;
+            index++;
             Debug.Log("Instantiate new object!");
             newPos = false;
-            // ledHolder.GetComponent<UDPReceiver>().centerOrigin = true;
         }
-        if (endReceive)
-        {
-            endReceive = false;
-            Destroy(ledHolder.transform.GetChild(0).gameObject);
-            // ledHolder.GetComponent<UDPReceiver>().centerOrigin = true; // Only used with gyroscope
-            // ledHolder.GetComponent<UDPReceiver>().clearLeds = true;
-        }
-    }
 
-    private void Start()
-    {
-        ThreadStart ts = new ThreadStart(GetInfo);
-        mThread = new Thread(ts);
-        mThread.Start();
+        if (restart)
+        {
+            Debug.Log("Got restart signal, deleting children");
+            int i = 0;
+            index = 0;
+            foreach (Transform child in ledHolder.transform)
+            {
+                if (i > 0) DestroyImmediate(child.gameObject);
+                i++;
+            }
+
+            restart = false;
+            endReceive = true;
+        }
     }
 
     void GetInfo()
@@ -64,80 +107,100 @@ public class SpawnLed : MonoBehaviour
         localAdd = IPAddress.Parse(connectionIP);
         listener = new TcpListener(IPAddress.Any, connectionPort);
         listener.Start();
-
-        client = listener.AcceptTcpClient();
-
         running = true;
+
         while (running)
         {
+            if (endReceive)
+            {
+                client?.Close();
+                client = null;
+                listener?.Stop();
+                listener = new TcpListener(IPAddress.Any, connectionPort);
+                listener.Start();
+                endReceive = false;
+            }
+
+            if (client == null || !client.Connected)
+            {
+                try
+                {
+                    client = listener.AcceptTcpClient();
+                }
+                catch (SocketException) { continue; }
+            }
+
             SendAndReceiveData();
         }
-        listener.Stop();
+    }
+
+    void StopThread()
+    {
+        running = false;
+        try
+        {
+            client?.Close();
+            listener?.Stop();
+            mThread?.Join(100); // Allow 100ms for graceful exit
+        }
+        catch { }
     }
 
     void SendAndReceiveData()
     {
-        NetworkStream nwStream = client.GetStream();
-        byte[] buffer = new byte[client.ReceiveBufferSize];
+        if (client == null || !client.Connected) return;
 
-        //---receiving Data from the Host----
-        int bytesRead = nwStream.Read(buffer, 0, client.ReceiveBufferSize); //Getting data in Bytes from Python
-        string dataReceived = Encoding.UTF8.GetString(buffer, 0, bytesRead); //Converting byte data to string
-
-        if (dataReceived == "END")
+        try
         {
-            Debug.Log("Got END signal!");
-            endReceive = true;
-        }
+            NetworkStream nwStream = client.GetStream();
+            byte[] buffer = new byte[client.ReceiveBufferSize];
+            int bytesRead = nwStream.Read(buffer, 0, buffer.Length);
 
-        if (dataReceived != null)
-        {
-            receivedPos = StringToVector3(dataReceived); //<-- assigning receivedPos value from Python
-            newPos = true;
-            // print("received pos data, and moved the Cube!");
-            Debug.Log("Got pos data, set new prefab position.");
-
-            //---Sending Data to Host----
-            while (newPos)
+            if (bytesRead == 0)
             {
-                ;
+                endReceive = true;
+                return;
             }
-            byte[] myWriteBuffer = Encoding.ASCII.GetBytes("ack"); //Converting string to byte data
-            nwStream.Write(myWriteBuffer, 0, myWriteBuffer.Length); //Sending the data in Bytes to Python
+
+            string dataReceived = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+
+            if (dataReceived == "END")
+                endReceive = true;
+            else if (dataReceived == "RESTART")
+                restart = true;
+            else if (!string.IsNullOrEmpty(dataReceived))
+            {
+                receivedPos = StringToVector3(dataReceived);
+                newPos = true;
+
+                while (newPos) { Thread.Sleep(1); }
+
+                byte[] ack = Encoding.ASCII.GetBytes("ack");
+                if (client.Connected && nwStream.CanWrite)
+                    nwStream.Write(ack, 0, ack.Length);
+            }
+        }
+        catch (Exception)
+        {
+            endReceive = true;
         }
     }
 
     public static Vector3 StringToVector3(string sVector)
     {
-        // Remove the parentheses
-        if (sVector.StartsWith("(") && sVector.EndsWith(")"))
+        try
         {
-            sVector = sVector.Substring(1, sVector.Length - 2);
+            sVector = sVector.Trim('(', ')');
+            string[] sArray = sVector.Split(',');
+
+            if (sArray.Length != 3)
+                throw new FormatException("Invalid format");
+
+            return new Vector3(float.Parse(sArray[0]), float.Parse(sArray[1]), float.Parse(sArray[2]));
         }
-
-        // split the items
-        string[] sArray = sVector.Split(',');
-
-        // store as a Vector3
-        Vector3 result = new Vector3(
-            float.Parse(sArray[0]),
-            float.Parse(sArray[1]),
-            float.Parse(sArray[2]));
-
-        return result;
-    }
-    /*
-    public static string GetLocalIPAddress()
-    {
-        var host = Dns.GetHostEntry(Dns.GetHostName());
-        foreach (var ip in host.AddressList)
+        catch
         {
-            if (ip.AddressFamily == AddressFamily.InterNetwork)
-            {
-                return ip.ToString();
-            }
+            return Vector3.zero;
         }
-        throw new System.Exception("No network adapters with an IPv4 address in the system!");
     }
-    */
 }

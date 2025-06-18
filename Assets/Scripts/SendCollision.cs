@@ -8,6 +8,7 @@ using System.Threading;
 using System.Diagnostics;
 using Debug = UnityEngine.Debug;
 using System;
+using System.Reflection;
 
 public class SendCollision : MonoBehaviour
 {
@@ -15,30 +16,25 @@ public class SendCollision : MonoBehaviour
     public string connectionIP = "127.0.0.1";
     public int connectionPort = 5002;
     public int index;
-    // public GameObject led;
-    // private GameObject newLed; // Modify attributes right after spawn, stores newest LED
+    [Tooltip("Uses Physics.checkSphere instead of collision/trigger enter.")]
+    public bool useCheckSphereInstead = false;
+
     IPAddress localAdd;
-    private bool collision = false;
+    private bool collision = false; // Triggers sending the buffer and resetting to false. Set by ColorEnter and Exit
+    private bool colActive = false; // Used to track if there is already a collision active when using useCheckSphereInstead
     private bool exit;
     private int activeR;
     private int activeG;
     private int activeB;
     private int collCount;
+    private float worldRadius;
     private Color32 firstColor;
-    private Color32 middleColor;
+
     // TcpListener listener;
     UdpClient client;
     IPEndPoint ep;
 
     bool running;
-
-    public ParticleSystem particleSystemCollision;
-    // private ParticleCollisionEvent[] collisionEvents = new ParticleCollisionEvent[16];
-
-    private void Update()
-    {
-
-    }
 
     void Start()
     {
@@ -46,21 +42,53 @@ public class SendCollision : MonoBehaviour
         mThread = new Thread(ts);
         mThread.Start();
         var rend = GetComponent<Renderer>();
+
+        SphereCollider sphereCollider = GetComponent<SphereCollider>();
+        worldRadius = sphereCollider.radius * transform.lossyScale.x;
+    }
+
+    void Update()
+    {
+        if (useCheckSphereInstead)
+        {
+            Collider[] hits = Physics.OverlapSphere(transform.position, worldRadius);
+
+            List<Collider> filtered = new();
+
+            foreach (Collider col in hits)
+            {
+                if (!col.CompareTag("LED"))
+                    filtered.Add(col);
+            }
+
+            Collider[] filteredHits = filtered.ToArray();
+
+            // TODO: Manage multiple colliders somehow
+            if (filteredHits.Length > 0 && !colActive)
+            {
+                colActive = true;
+                ColorEnterEvent(filteredHits[0].gameObject);
+                Debug.Log("Got collision");
+            }
+            else if (colActive)
+            {
+                colActive = false;
+                ColorExitEvent();
+                Debug.Log("Exiting collision");
+            }
+        }
     }
 
     void GetInfo()
     {
         localAdd = IPAddress.Parse(connectionIP);
-        // client = new UdpClient();
         client = new UdpClient();
-        // client.Connect(localAdd, connectionPort);
         ep = new IPEndPoint(localAdd, connectionPort);
-        // client.Connect(ep);
 
         running = true;
         while (running)
         {
-            Thread.Sleep(50); // Prevent extreme CPU usage (idk why)
+            Thread.Sleep(50); // Prevent high CPU usage
             SendAndReceiveData();
         }
     }
@@ -69,44 +97,84 @@ public class SendCollision : MonoBehaviour
     {
         if (collision)
         {
-            // Debug.Log("Sending collision for index "+index);
             byte[] myWriteBuffer = Encoding.ASCII.GetBytes(index + "|" + activeR + "|" + activeG + "|" + activeB);
-            client.Send(myWriteBuffer, myWriteBuffer.Length, ep); //Sending the data in Bytes to Python
+            client.Send(myWriteBuffer, myWriteBuffer.Length, ep);
             collision = false;
         }
         else if (exit)
         {
-            // Debug.Log("Sending exit for index "+index);
-            byte[] myWriteBuffer = Encoding.ASCII.GetBytes(index + "|0|0|0"); //Converting string to byte data
-            client.Send(myWriteBuffer, myWriteBuffer.Length, ep); //Sending the data in Bytes to Python
+            byte[] myWriteBuffer = Encoding.ASCII.GetBytes(index + "|0|0|0");
+            client.Send(myWriteBuffer, myWriteBuffer.Length, ep);
             exit = false;
         }
     }
 
-    private void OnTriggerEnter(Collider col)
+    private void ColorEnterEvent(GameObject col)
     {
         if (col.tag != "LED")
         {
             collCount += 1;
-            if (collCount == 1)
+
+            Color32 collisionColor = new Color32(0, 0, 0, 255);
+            bool found = false;
+
+            var meshRenderer = col.GetComponent<MeshRenderer>();
+            if (meshRenderer != null && meshRenderer.material != null)
             {
-                firstColor = col.GetComponent<MeshRenderer>().material.color;
+                collisionColor = meshRenderer.material.color;
+                found = true;
+                Debug.Log("Found meshRenderer");
             }
-            // } else if (collCount == 2) {
-            //     middleColor = col.GetComponent<MeshRenderer>().material.color;
-            // }
-            Color32 objColor;
-            objColor = col.GetComponent<MeshRenderer>().material.color;
-            activeR = objColor.r;
-            activeG = objColor.g;
-            activeB = objColor.b;
-            var rend = GetComponent<Renderer>();
-            rend.material.SetColor("_Color", objColor);
-            collision = true;
+            else
+            {
+                Transform current = col.transform.parent;
+
+                for (int i = 0; i < 10 && current != null; i++)
+                {
+                    Component[] components = current.GetComponents<MonoBehaviour>();
+
+                    foreach (var comp in components)
+                    {
+                        var field = comp.GetType().GetField("targetColor", BindingFlags.Instance | BindingFlags.Public);
+                        if (field != null && field.FieldType == typeof(Color32))
+                        {
+                            collisionColor = (Color32)field.GetValue(comp);
+                            found = true;
+                            break;
+                        }
+                    }
+
+                    if (found)
+                        break;
+
+                    current = current.parent;
+                }
+            }
+
+            if (found)
+            {
+                if (collCount == 1)
+                {
+                    firstColor = collisionColor;
+                }
+
+                Color32 objColor = collisionColor;
+                activeR = objColor.r;
+                activeG = objColor.g;
+                activeB = objColor.b;
+
+                var rend = GetComponent<Renderer>();
+                rend.material.SetColor("_Color", objColor);
+                collision = true;
+            }
+            else
+            {
+            }
         }
+
     }
 
-    private void OnTriggerExit(Collider col)
+    private void ColorExitEvent()
     {
         collCount -= 1;
         if (collCount == 1)
@@ -118,33 +186,50 @@ public class SendCollision : MonoBehaviour
             rend.material.SetColor("_Color", firstColor);
             collision = true;
         }
-        // } else if (collCount == 2) {
-        //     activeR = middleColor.r;
-        //     activeG = middleColor.g;
-        //     activeB = middleColor.b;
-        //     var rend = GetComponent<Renderer>();
-        //     rend.material.SetColor("_Color", middleColor);
-        //     collision = true;
-        // }
         else
         {
             Color32 objColor = new Color32(255, 255, 255, 255);
             var rend = GetComponent<Renderer>();
             rend.material.SetColor("_Color", objColor);
-            // Debug.Log("Trigger exit!");
             exit = true;
+        }
+    }
+
+    private void OnTriggerEnter(Collider col)
+    {
+        if (!useCheckSphereInstead)
+        {
+            ColorEnterEvent(col.gameObject);
+        }
+    }
+
+
+    private void OnCollisionEnter(Collision col)
+    {
+        if (!useCheckSphereInstead)
+        {
+            ColorEnterEvent(col.gameObject);
+        }
+    }
+
+    private void OnTriggerExit(Collider col)
+    {
+        if (!useCheckSphereInstead)
+        {
+            ColorExitEvent();
+        }
+    }
+
+    private void OnCollisionExit(Collision col)
+    {
+        if (!useCheckSphereInstead)
+        {
+            ColorExitEvent();
         }
     }
 
     void OnDisable()
     {
         running = false;
-    }
-
-    void OnParticleCollision(GameObject other)
-    { // TODO: Exit timeout for particles. There is no particle collision exit.
-        // other.GameObject.Particle.GetCurrentColor;
-        Debug.Log("Particle enter!");
-        collision = true;
     }
 }

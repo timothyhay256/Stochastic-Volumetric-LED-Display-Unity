@@ -20,7 +20,7 @@ public class SpawnLed : MonoBehaviour
     private GameObject newLed;
     IPAddress localAdd;
     private bool newPos = false;
-    private int index = 0;
+    public int index = 0;
     private bool endReceive = false;
     private bool restart = false;
     TcpListener listener;
@@ -89,16 +89,17 @@ public class SpawnLed : MonoBehaviour
         if (restart)
         {
             Debug.Log("Got restart signal, deleting children");
-            int i = 0;
             index = 0;
-            foreach (Transform child in ledHolder.transform)
+
+            int childCount = ledHolder.transform.childCount;
+            for (int i = childCount - 1; i > 0; i--) // Start from the end to avoid index shifting
             {
-                if (i > 0) DestroyImmediate(child.gameObject);
-                i++;
+                Transform child = ledHolder.transform.GetChild(i);
+                GameObject.Destroy(child.gameObject);
             }
 
             restart = false;
-            endReceive = true;
+            endReceive = false;
         }
     }
 

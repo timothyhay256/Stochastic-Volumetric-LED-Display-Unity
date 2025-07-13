@@ -77,13 +77,13 @@ public class SendCollision : MonoBehaviour
                 if (collisionStack.Count > 0)
                 {
                     ApplyColor(collisionStack.First.Value.color);
+                    collisionUpdated = true;
                 }
                 else
                 {
-                    ApplyColor(Color.white);
                     sendClear = true;
+                    ApplyColor(Color.white);
                 }
-                collisionUpdated = true;
             }
         }
     }
@@ -96,9 +96,9 @@ public class SendCollision : MonoBehaviour
 
         while (running)
         {
-            Thread.Sleep(50);
+            Thread.Sleep(1);
 
-            if (collisionUpdated)
+            if (collisionUpdated && !sendClear)
             {
                 Color32 color = collisionStack.Count > 0 ? collisionStack.First.Value.color : Color.white;
                 SendColor(color);
@@ -106,7 +106,7 @@ public class SendCollision : MonoBehaviour
             }
             else if (sendClear)
             {
-                SendColor(new Color32(0, 0, 0, 255));
+                SendColor(new Color32(0, 0, 0, 0));
                 sendClear = false;
             }
         }
@@ -160,7 +160,7 @@ public class SendCollision : MonoBehaviour
             current = current.parent;
         }
 
-        return new Color32(255, 255, 255, 255);
+        return new Color32(0, 0, 0, 0);
     }
 
     private void OnTriggerEnter(Collider col)
@@ -184,13 +184,13 @@ public class SendCollision : MonoBehaviour
             if (collisionStack.Count > 0)
             {
                 ApplyColor(collisionStack.First.Value.color);
+                collisionUpdated = true;
             }
             else
             {
-                ApplyColor(Color.white);
                 sendClear = true;
+                ApplyColor(Color.white);
             }
-            collisionUpdated = true;
         }
     }
 

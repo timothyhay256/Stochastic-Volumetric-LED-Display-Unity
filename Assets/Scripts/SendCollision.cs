@@ -27,6 +27,7 @@ public class SendCollision : MonoBehaviour
 
     private float worldRadius;
     private bool running;
+    private ManualResetEventSlim signalNewData = new(false);
 
     private readonly LinkedList<CollisionInfo> collisionStack = new();
     private readonly HashSet<Collider> activeColliders = new();
@@ -64,6 +65,7 @@ public class SendCollision : MonoBehaviour
                 activeColliders.Add(col);
                 ApplyColor(color);
                 collisionUpdated = true;
+                signalNewData.Set();
             }
         }
 
@@ -78,6 +80,7 @@ public class SendCollision : MonoBehaviour
                 {
                     ApplyColor(collisionStack.First.Value.color);
                     collisionUpdated = true;
+                    signalNewData.Set();
                 }
                 else
                 {
@@ -96,7 +99,8 @@ public class SendCollision : MonoBehaviour
 
         while (running)
         {
-            Thread.Sleep(1);
+            signalNewData.Wait();
+            signalNewData.Reset();
 
             if (collisionUpdated && !sendClear)
             {
@@ -172,6 +176,7 @@ public class SendCollision : MonoBehaviour
             activeColliders.Add(col);
             ApplyColor(color);
             collisionUpdated = true;
+            signalNewData.Set();
         }
     }
 
@@ -185,6 +190,7 @@ public class SendCollision : MonoBehaviour
             {
                 ApplyColor(collisionStack.First.Value.color);
                 collisionUpdated = true;
+                signalNewData.Set();
             }
             else
             {

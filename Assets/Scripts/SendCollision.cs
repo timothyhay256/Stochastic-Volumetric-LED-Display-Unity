@@ -97,21 +97,27 @@ public class SendCollision : MonoBehaviour
         ep = new IPEndPoint(IPAddress.Parse(connectionIP), connectionPort);
         running = true;
 
-        while (running)
+        while (true)
         {
-            signalNewData.Wait();
-            signalNewData.Reset();
+            if (!running) break;
 
-            if (collisionUpdated && !sendClear)
+            if (signalNewData.Wait(300))
             {
-                Color32 color = collisionStack.Count > 0 ? collisionStack.First.Value.color : Color.white;
-                SendColor(color);
-                collisionUpdated = false;
-            }
-            else if (sendClear)
-            {
-                SendColor(new Color32(0, 0, 0, 0));
-                sendClear = false;
+                signalNewData.Reset();
+
+                if (!running) break;
+
+                if (collisionUpdated && !sendClear)
+                {
+                    Color32 color = collisionStack.Count > 0 ? collisionStack.First.Value.color : Color.white;
+                    SendColor(color);
+                    collisionUpdated = false;
+                }
+                else if (sendClear)
+                {
+                    SendColor(new Color32(0, 0, 0, 0));
+                    sendClear = false;
+                }
             }
         }
 
@@ -203,7 +209,11 @@ public class SendCollision : MonoBehaviour
     private void OnDisable()
     {
         running = false;
-        mThread?.Join();
+        signalNewData.Set();
+        if (mThread != null && mThread.IsAlive)
+        {
+            mThread.Join(); // Wait for clean shutdown
+        }
         client?.Close();
     }
 }

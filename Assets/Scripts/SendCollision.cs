@@ -86,6 +86,7 @@ public class SendCollision : MonoBehaviour
                 {
                     sendClear = true;
                     ApplyColor(Color.white);
+                    signalNewData.Set();
                 }
             }
         }
@@ -202,6 +203,7 @@ public class SendCollision : MonoBehaviour
             {
                 sendClear = true;
                 ApplyColor(Color.white);
+                signalNewData.Set();
             }
         }
     }

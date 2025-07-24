@@ -1,38 +1,28 @@
-using System;
 using System.Collections.Generic;
-using System.Net;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading;
 using System.Reflection;
 using UnityEngine;
 
 public class SendCollision : MonoBehaviour
 {
-    [Header("Network Settings")]
-    public string connectionIP = "127.0.0.1";
-    public int connectionPort = 5002;
+    [Header("ID")]
     public int index;
 
     [Header("Detection Options")]
     public bool useCheckSphereInstead = false;
     public LayerMask interactableLayerMask;
 
-    private Thread mThread;
-    private UdpClient client;
-    private IPEndPoint ep;
-
-    private bool collisionUpdated;
-    private bool sendClear;
+    [Header("Collision State")]
+    public bool sendClear;
+    public bool clearLoop;
+    public Color32? brushColor = null;
 
     private float worldRadius;
-    private bool running;
-    private ManualResetEventSlim signalNewData = new(false);
+    private SphereCollider sphere;
 
     private readonly LinkedList<CollisionInfo> collisionStack = new();
     private readonly HashSet<Collider> activeColliders = new();
 
-    private struct CollisionInfo
+    public struct CollisionInfo
     {
         public Collider collider;
         public Color32 color;
@@ -40,95 +30,141 @@ public class SendCollision : MonoBehaviour
 
     void Start()
     {
-        mThread = new Thread(SendLoop);
-        mThread.Start();
-
-        var sphere = GetComponent<SphereCollider>();
+        sphere = GetComponent<SphereCollider>();
         if (sphere != null)
+        {
             worldRadius = sphere.radius * transform.lossyScale.x;
+        }
     }
 
     void Update()
     {
-        if (!useCheckSphereInstead) return;
+        if (useCheckSphereInstead)
+        {
+            CheckSphereCollisions();
+        }
 
+        if (clearLoop)
+        {
+            clearLoop = false;
+            SendManager.Instance.SendClear();
+        }
+    }
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (useCheckSphereInstead || col.CompareTag("LED")) return;
+
+        HandleCollisionEnter(col);
+    }
+
+    void OnTriggerExit(Collider col)
+    {
+        if (useCheckSphereInstead || !activeColliders.Contains(col)) return;
+
+        HandleCollisionExit(col);
+    }
+
+    private void CheckSphereCollisions()
+    {
         Collider[] hits = Physics.OverlapSphere(transform.position, worldRadius, interactableLayerMask);
-        HashSet<Collider> currentFrameColliders = new(hits);
+        HashSet<Collider> currentFrame = new(hits);
 
-        // Handle new entries
         foreach (var col in hits)
         {
             if (!activeColliders.Contains(col))
             {
                 Color32 color = ExtractColor(col.gameObject);
-                collisionStack.AddFirst(new CollisionInfo { collider = col, color = color });
-                activeColliders.Add(col);
-                ApplyColor(color);
-                collisionUpdated = true;
-                signalNewData.Set();
+                AddCollision(col, color);
+                if (brushColor == null)
+                    ApplyColor(color);
             }
         }
 
-        // Handle exits
         foreach (var col in new List<Collider>(activeColliders))
         {
-            if (!currentFrameColliders.Contains(col))
+            if (!currentFrame.Contains(col))
             {
-                activeColliders.Remove(col);
-                RemoveFromStack(col);
-                if (collisionStack.Count > 0)
-                {
-                    ApplyColor(collisionStack.First.Value.color);
-                    collisionUpdated = true;
-                    signalNewData.Set();
-                }
-                else
-                {
-                    sendClear = true;
-                    ApplyColor(Color.white);
-                    signalNewData.Set();
-                }
+                HandleCollisionExit(col);
             }
         }
-    }
 
-    private void SendLoop()
-    {
-        client = new UdpClient();
-        ep = new IPEndPoint(IPAddress.Parse(connectionIP), connectionPort);
-        running = true;
-
-        while (true)
+        if (clearLoop)
         {
-            if (!running) break;
-
-            if (signalNewData.Wait(300))
-            {
-                signalNewData.Reset();
-
-                if (!running) break;
-
-                if (collisionUpdated && !sendClear)
-                {
-                    Color32 color = collisionStack.Count > 0 ? collisionStack.First.Value.color : Color.white;
-                    SendColor(color);
-                    collisionUpdated = false;
-                }
-                else if (sendClear)
-                {
-                    SendColor(new Color32(0, 0, 0, 0));
-                    sendClear = false;
-                }
-            }
+            clearLoop = false;
+            SendManager.Instance.SendClear();
         }
-
-        client?.Close();
     }
 
-    private void SendColor(Color32 color)
+    private void HandleCollisionEnter(Collider col)
     {
-        byte[] buffer = Encoding.ASCII.GetBytes($"{index}|{color.r}|{color.g}|{color.b}");
-        client.Send(buffer, buffer.Length, ep);
+        if (col.CompareTag("Eraser"))
+        {
+            Color32 color = ExtractColor(col.gameObject);
+            AddCollision(col, color);
+            brushColor = null;
+            ApplyColor(color);
+        }
+        else if (col.CompareTag("Brush"))
+        {
+            brushColor = ExtractColor(col.gameObject);
+            ApplyColor(brushColor.Value);
+        }
+        else
+        {
+            Color32 color = ExtractColor(col.gameObject);
+            AddCollision(col, color);
+            if (brushColor == null)
+                ApplyColor(color);
+        }
+    }
+
+    // Hand Demo specific, aka remove me
+    public void ClearSingleLED() {
+        activeColliders.Clear();
+        ApplyColor(Color.white);
+        QueueClear();
+    }
+
+    private void HandleCollisionExit(Collider col)
+    {
+        activeColliders.Remove(col);
+        RemoveFromStack(col);
+
+        if (col == null) {
+            ApplyColor(Color.white);
+            QueueClear();
+            return;
+        }
+
+        if (col.CompareTag("Eraser"))
+        {
+            ApplyColor(Color.white);
+            QueueClear();
+        }
+        else if (col.CompareTag("Brush"))
+        {
+            brushColor = null;
+            if (collisionStack.Count > 0)
+                ApplyColor(collisionStack.First.Value.color);
+            else
+                GetComponent<Renderer>().material.color = Color.white;
+                QueueClear();
+        }
+        else if (brushColor == null)
+        {
+            if (collisionStack.Count > 0)
+                ApplyColor(collisionStack.First.Value.color);
+            else
+                GetComponent<Renderer>().material.color = Color.white;
+                QueueClear();
+        }
+    }
+
+    private void AddCollision(Collider col, Color32 color)
+    {
+        collisionStack.AddFirst(new CollisionInfo { collider = col, color = color });
+        activeColliders.Add(col);
     }
 
     private void RemoveFromStack(Collider col)
@@ -145,11 +181,30 @@ public class SendCollision : MonoBehaviour
         }
     }
 
-    private void ApplyColor(Color32 color)
+    public void ApplyColor(Color32 color)
     {
         GetComponent<Renderer>().material.color = color;
+        SendColor(color);
     }
 
+    private void SendColor(Color32 color)
+    {
+        string message = $"{index}|{color.r}|{color.g}|{color.b}";
+        SendManager.Instance.QueueMessage(message);
+    }
+
+    public void QueueClear()
+    {
+        SendColor(new Color32(0, 0, 0, 0));
+    }
+
+    public void UpdateState() {
+        if (GetComponent<Renderer>().material.color == Color.white) {
+            SendColor(new Color32(0, 0, 0, 0));
+        } else {
+            SendColor(GetComponent<Renderer>().material.color);
+        }
+    }
     private Color32 ExtractColor(GameObject obj)
     {
         if (obj.TryGetComponent<MeshRenderer>(out var renderer))
@@ -172,50 +227,5 @@ public class SendCollision : MonoBehaviour
         }
 
         return new Color32(0, 0, 0, 0);
-    }
-
-    private void OnTriggerEnter(Collider col)
-    {
-        if (!useCheckSphereInstead && col.CompareTag("LED") == false)
-        {
-            Color32 color = ExtractColor(col.gameObject);
-            collisionStack.AddFirst(new CollisionInfo { collider = col, color = color });
-            activeColliders.Add(col);
-            ApplyColor(color);
-            collisionUpdated = true;
-            signalNewData.Set();
-        }
-    }
-
-    private void OnTriggerExit(Collider col)
-    {
-        if (!useCheckSphereInstead && activeColliders.Contains(col))
-        {
-            activeColliders.Remove(col);
-            RemoveFromStack(col);
-            if (collisionStack.Count > 0)
-            {
-                ApplyColor(collisionStack.First.Value.color);
-                collisionUpdated = true;
-                signalNewData.Set();
-            }
-            else
-            {
-                sendClear = true;
-                ApplyColor(Color.white);
-                signalNewData.Set();
-            }
-        }
-    }
-
-    private void OnDisable()
-    {
-        running = false;
-        signalNewData.Set();
-        if (mThread != null && mThread.IsAlive)
-        {
-            mThread.Join(); // Wait for clean shutdown
-        }
-        client?.Close();
     }
 }

@@ -128,6 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 85158178}
+  - component: {fileID: 85158179}
   m_Layer: 0
   m_Name: LEDHold
   m_TagString: Untagged
@@ -151,6 +152,20 @@ Transform:
   - {fileID: 447797276}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &85158179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85158177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1355bb34c4916f536977ff72bdfefd95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectionIP: 127.0.0.1
+  connectionPort: 5001
 --- !u!1 &447797275
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,7 +182,7 @@ GameObject:
   - component: {fileID: 447797277}
   m_Layer: 6
   m_Name: LED
-  m_TagString: Untagged
+  m_TagString: LED
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -199,13 +214,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8248f0cb31cc1fb189d83635b4b13aba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  connectionIP: 127.0.0.1
-  connectionPort: 5001
   index: 0
   useCheckSphereInstead: 0
   interactableLayerMask:
     serializedVersion: 2
     m_Bits: 55
+  sendClear: 0
+  clearLoop: 0
 --- !u!54 &447797278
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -213,10 +228,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447797275}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
